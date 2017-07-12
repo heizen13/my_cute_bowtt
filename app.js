@@ -41,9 +41,10 @@ String.prototype.contains = function(content){
 }
 bot.dialog('/', function (session) {
     if(session.message.text.toLowerCase().contains('hello')){
-      session.send(`Hey, How are you?`);
+      session.send(`Hello bruh!, Zup bruh? Howzi goin bruh?!`);
       }else if(session.message.text.toLowerCase().contains('help')){
-        session.send(`How can I help you?`);
+        session.send(`How can I help you bruh? I don't any money bruh!? but I can give you a hug bruh?!`);
+         
       }else{
         session.send(`Sorry I don't understand you...`);
       }
