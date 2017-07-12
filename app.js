@@ -46,7 +46,7 @@ bot.dialog('/', function (session) {
         session.send(`How can I help you bruh? I don't have any money bruh!? but I can give you a hug bruh?!`);
           }
    else if(session.message.text.toLowerCase().contains('who are you?')){
-        session.send(`Oh hello, nice to meet you. I'm bowtt I'm a cute bot. Some people telling me that I look like a balls and a butt. It confuse you but... why not both?`);
+        session.send("Hello, I'm bowtt and I'm a cute bot. Some people tells me that I look like a balls and a butt.");
          
       }else{
         session.send(`Sorry I don't understand you...`);
