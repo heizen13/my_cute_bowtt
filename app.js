@@ -14,7 +14,7 @@ var connector = new builder.ChatConnector({
     appPassword: "S43HgSqqzS0SoRAmEGxcSO8"
 });
 var bot = new builder.UniversalBot(connector);
-server.post('/api/messages', connector.listen());
+server.post('https://bowtt2.herokuapp.com/', connector.listen());
 //Bot on
 bot.on('contactRelationUpdate', function (message) {
     if (message.action === 'add') {
