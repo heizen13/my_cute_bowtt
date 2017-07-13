@@ -56,6 +56,10 @@ bot.dialog('/', function (session) {
       session.send(`Timesheet-timesheet din kasi pag may time!!! (cwl) `);
       }
    
+   else if(session.message.text.toLowerCase().contains('uwian') | session.message.text.toLowerCase().contains('tara uwi')){
+      session.send(`Edi umuwi ka! Yan lang naman habol mo bago ka pumasok. Gusto mo na agad umuwi!!! |-( `);
+      }
+   
    else{
         session.send(`Sorry bruh I don't understand you... Jejemon ka yata? :D `);
       }
