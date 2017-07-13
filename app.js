@@ -40,8 +40,9 @@ String.prototype.contains = function(content){
   return this.indexOf(content) !== -1;
 }
 bot.dialog('/', function (session) {
+   
     if(session.message.text.toLowerCase().contains('hello')){
-      session.send(`Hello bruh!, Zup bruh? Astig mo bruh %s !!!`);
+      session.send(`Hello bruh!, Zup bruh? Astig mo bruh %s !!!`, message.user);
       }else if(session.message.text.toLowerCase().contains('help')){
         session.send(`How can I help you bruh? I don't have any money... b-but I can give you a hug..... :$ `);
           }
