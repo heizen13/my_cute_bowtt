@@ -21,7 +21,7 @@ bot.on('contactRelationUpdate', function (message) {
         var name = message.user ? message.user.name : null;
         var reply = new builder.Message()
                 .address(message.address)
-                .text("Hello %s... Thanks for adding me. Say 'hello' to see some great demos.", name || 'there');
+                .text("Hello bruh %s... Salamat sa pag-add sakin. :$ ", name || 'there');
         bot.send(reply);
     } else {
         // delete their data
@@ -41,7 +41,7 @@ String.prototype.contains = function(content){
 }
 bot.dialog('/', function (session) {
     if(session.message.text.toLowerCase().contains('hello')){
-      session.send(`Hello bruh!, Zup bruh? Howzi goin bruh?!`);
+      session.send(`Hello bruh!, Zup bruh? Astig mo bruh %s !!!`);
       }else if(session.message.text.toLowerCase().contains('help')){
         session.send(`How can I help you bruh? I don't have any money... b-but I can give you a hug..... :$ `);
           }
@@ -64,6 +64,10 @@ bot.dialog('/', function (session) {
       }
 else if(session.message.text.toLowerCase().contains('meron ka ba ngayon')){
       session.send(`gago haha`);
+      }
+   
+   else if(session.message.text.toLowerCase().contains('search pokemon')){
+      session.send(`....`);
       }
 
    else{
