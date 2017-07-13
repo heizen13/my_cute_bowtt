@@ -10,8 +10,10 @@ server.listen(process.env.port || process.env.PORT || 8080, function () {
 });
 // Create chat bot
 var connector = new builder.ChatConnector({
-    appId: "7f54774d-801c-44b1-be4b-d32ec508a1b2",
-    appPassword: "S43HgSqqzS0SoRAmEGxcSO8"
+    
+   appId: process.env.MICROSOFT_APP_ID,
+    appPassword: process.env.MICROSOFT_APP_PASSWORD
+   
 });
 var bot = new builder.UniversalBot(connector);
 server.post('https://bowtt2.herokuapp.com/api/messages', connector.listen());
