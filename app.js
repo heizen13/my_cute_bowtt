@@ -50,7 +50,7 @@ bot.dialog('/', function (session) {
       }
   
    else if(session.message.text.toLowerCase().contains('dubidubidap')){
-      session.send(`Beep beep beep.. and sabi ng jeep.. beep beep beep beep bee-beep beep!!!`);
+      session.send(`/me Beep beep beep.. and sabi ng jeep.. beep beep beep beep bee-beep beep!!!`);
       }
    
    else{
