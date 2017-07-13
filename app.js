@@ -59,7 +59,13 @@ bot.dialog('/', function (session) {
    else if(session.message.text.toLowerCase().contains('uwian') | session.message.text.toLowerCase().contains('tara uwi')){
       session.send(`Edi umuwi ka! Yan lang naman habol mo bago ka pumasok. Gusto mo na agad umuwi!!! |-( `);
       }
-   
+   else if(session.message.text.toLowerCase().contains('suplado') | session.message.text.toLowerCase().contains('galit')){
+      session.send(` (donttalk) `);
+      }
+else if(session.message.text.toLowerCase().contains('meron ka ba ngayon')){
+      session.send(`gago haha`);
+      }
+
    else{
         session.send(`Sorry bruh I don't understand you... Jejemon ka yata? :D `);
       }
