@@ -60,7 +60,7 @@ bot.dialog('/', function (session) {
    else if(session.message.text.toLowerCase().contains('uwian') | session.message.text.toLowerCase().contains('tara uwi')){
       session.send(`Edi umuwi ka! Yan lang naman habol mo bago ka pumasok. Gusto mo na agad umuwi!!! |-( `);
       }
-   else if(session.message.text.toLowerCase().contains('suplado') | session.message.text.toLowerCase().contains('galit')){
+   else if(session.message.text.toLowerCase().contains('suplado mo') | session.message.text.toLowerCase().contains('galit ka')){
       session.send(` (donttalk) `);
       }
 else if(session.message.text.toLowerCase().contains('meron ka ba ngayon')){
