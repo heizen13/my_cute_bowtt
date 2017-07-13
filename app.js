@@ -51,7 +51,7 @@ bot.dialog('/', function (session) {
    
    
    else{
-        session.send(`Sorry bruh I don't understand you...`);
+        session.send(`Sorry bruh I don't understand you... Jejemon ka yata? :D `);
       }
 });
  
