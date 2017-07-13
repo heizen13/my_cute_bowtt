@@ -43,13 +43,15 @@ bot.dialog('/', function (session) {
     if(session.message.text.toLowerCase().contains('hello')){
       session.send(`Hello bruh!, Zup bruh? Howzi goin bruh?!`);
       }else if(session.message.text.toLowerCase().contains('help')){
-        session.send(`How can I help you bruh? I don't have any money bruh!? but I can give you a hug bruh?!`);
+        session.send(`How can I help you bruh? I don't have any money bruh!? but I can give you a hug..... :$ `);
           }
    else if(session.message.text.toLowerCase().contains('who are you?')){
         session.send("Hello, I'm bowtt and I'm a cute bot. Some people tells me that I look like a balls and a butt.");
-         
-      }else{
-        session.send(`Sorry I don't understand you...`);
+      }
+   
+   
+   else{
+        session.send(`Sorry bruh I don't understand you...`);
       }
 });
  
