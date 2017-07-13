@@ -48,7 +48,10 @@ bot.dialog('/', function (session) {
    else if(session.message.text.toLowerCase().contains('who are you?')){
         session.send("Hello, I'm bowtt. Some people tells me that I look like a balls and a butt but who cares, I'm still a cute bot. ;) ");
       }
-   
+  
+   if(session.message.text.toLowerCase().contains('dubidubidap')){
+      session.send(`Beep beep beep.. and sabi ng jeep.. beep beep beep beep bee-beep beep!!!`);
+      }
    
    else{
         session.send(`Sorry bruh I don't understand you... Jejemon ka yata? :D `);
