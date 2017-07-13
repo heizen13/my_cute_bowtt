@@ -49,7 +49,7 @@ bot.dialog('/', function (session) {
         session.send("Hello, I'm bowtt. Some people tells me that I look like a balls and a butt but who cares, I'm still a cute bot. ;) ");
       }
   
-   if(session.message.text.toLowerCase().contains('dubidubidap')){
+   else if(session.message.text.toLowerCase().contains('dubidubidap')){
       session.send(`Beep beep beep.. and sabi ng jeep.. beep beep beep beep bee-beep beep!!!`);
       }
    
