@@ -121,6 +121,10 @@ else if(session.message.text.toLowerCase().contains('weather')){
 else if(session.message.text.toLowerCase().contains('bad ka') | session.message.text.toLowerCase().contains('bad mo')){
       session.send(` BADing ka naman. :P `);
    }
+
+else if(session.message.text.toLowerCase().contains('useless')){
+      session.send(`C-A-N-C-E-R ka naman!! :P`);
+   }
    
    else{
         session.send(session.message.text);
