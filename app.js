@@ -64,7 +64,7 @@ bot.dialog('/', function (session) {
       }
    
    else if(session.message.text.toLowerCase().contains('kanteen' | 'canteen')){
-      session.send(`My favorite digimonster! <3`);
+      session.send(`LEGO~! BETCH!!`);
       }
    
    else if(session.message.text.toLowerCase().contains('suplado mo') | session.message.text.toLowerCase().contains('galit ka')){
