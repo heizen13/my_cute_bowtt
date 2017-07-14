@@ -130,7 +130,7 @@ else if(session.message.text.toLowerCase().contains('say ')){
       session.send(session.message.text);
    }
    else if(session.message.text.toLowerCase().contains('jibanyan')){
-      session.send(`Siya ang pinakamalakas na player ng Pokeland legend. Walang sinomang mga trainer ang nakakatalo sa kanya. Isa siyang legendary player!!!`);
+      session.send(`Siya ang pinakamalakas na player ng Pokeland legend. Walang sinomang mga trainer ang nakakatalo sa kanya. Isa siyang legendary P*KEMASTER!!!`);
       }
    
    else{
