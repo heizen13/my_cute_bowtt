@@ -70,18 +70,18 @@ bot.dialog('/', function (session) {
    else if(session.message.text.toLowerCase().contains('suplado mo') | session.message.text.toLowerCase().contains('galit ka')){
       session.send(` (donttalk) `);
       }
-else if(session.message.text.toLowerCase().contains('meron ka ba ngayon')){
-      session.send(`gago haha`);
+else if(session.message.text.toLowerCase().contains('meron ka')){
+      session.send(`ito lng meron ako (cash) `);
       }
    
    else if(session.message.text.toLowerCase().contains('morning') | session.message.text.toLowerCase().contains('ohayo') | session.message.text.toLowerCase().contains('umaga')){
       session.send(`Ohayo Gozaimasu! Bruh-sama~!`);
       }
    
-    else if(session.message.text.toLowerCase().contains('pokemon') | session.message.text.toLowerCase().contains('digimon')){
+    else if(session.message.text.toLowerCase().contains('pokemon ') | session.message.text.toLowerCase().contains('digimon ')){
       session.send(`Pikachu lang kilala ko. Astig kasi ng skill nya, flametrower.`);
       }
-   else if(session.message.text.toLowerCase().contains('pikachu')){
+   else if(session.message.text.toLowerCase().contains('pikachu ')){
       session.send(`My favorite digimonster! <3`);
       }
    
@@ -89,12 +89,12 @@ else if(session.message.text.toLowerCase().contains('meron ka ba ngayon')){
 
  else if(session.message.text.toLowerCase().contains('use ')){
     
-    if(session.message.text.toLowerCase().contains('use hyper')){
+    if(session.message.text.toLowerCase().contains('use hyperbeam ')){
       session.send(`Bowtt used hyperbeam!`);
       session.send(`KAME-HAME-WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA`); 
       session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://static1.bigstockphoto.com/4/2/6/small2/6247476.jpg'}]});
     }
-else if(session.message.text.toLowerCase().contains('use splash')){
+else if(session.message.text.toLowerCase().contains('use splash ')){
       session.send(`Bowtt used splash!`); 
       session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://s-media-cache-ak0.pinimg.com/236x/91/1d/5b/911d5b2c5d919dda6e2d371276e97650.jpg'}]});
       session.send(`......instantly killed enemies nearby.`); 
@@ -107,7 +107,7 @@ else if(session.message.text.toLowerCase().contains('use splash')){
    else if(session.message.text.toLowerCase().contains('bobo')){
       session.send(`weaboo ka naman. :P`);
    }
-else if(session.message.text.toLowerCase().contains('angas') | session.message.text.toLowerCase().contains('yabang')){
+else if(session.message.text.toLowerCase().contains('angas') | session.message.text.toLowerCase().contains('yabang mo')){
       session.send(` (cool) `);
    }
    
@@ -117,6 +117,9 @@ else if(session.message.text.toLowerCase().contains('angas') | session.message.t
 
 else if(session.message.text.toLowerCase().contains('weather')){
       session.send(` google mo nalang.. `);
+   }
+else if(session.message.text.toLowerCase().contains('bad ka') | session.message.text.toLowerCase().contains('bad mo')){
+      session.send(` BADing ka naman. :P `);
    }
    
    else{
