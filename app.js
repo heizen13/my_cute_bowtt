@@ -52,7 +52,7 @@ bot.dialog('/', function (session) {
         session.send("Hello, I'm bowtt. Some people tells me that I look like a balls and a butt but who cares, I'm still a cute bot. ;) ");
       }
   
-   else if(session.message.text.toLowerCase().contains('dubidubidap')){
+   else if(session.message.text.toLowerCase().contains('dubidubidap') | session.message.text.toLowerCase().contains('kanta')){
       session.send(`Beep beep beep.. ang sabi ng jeep.. beep beep beep beep bee-beep beep!!!`);
       }
    else if(session.message.text.toLowerCase().contains('delinquent')){
