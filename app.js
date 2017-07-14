@@ -144,6 +144,11 @@ else if(session.message.text.toLowerCase().contains('say ')){
       session.send('Yakult everyday, everynight, every-midnight!! Yakult all the time! Yan ang buhay mo!! Puro ka yakult!! Yakult ka ng yakult!! Yakulero!! :D');
    }
    
+   else if(session.message.text.toLowerCase().contains('(finger)')){
+      session.send(' eto ka naman!! ╭∩╮(-_-)╭∩╮ ...dalawa pa!!! ');
+   }
+   
+   
    else{
         session.send(session.message.text);
       }
