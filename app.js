@@ -78,7 +78,7 @@ else if(session.message.text.toLowerCase().contains('meron ka')){
       session.send(`Ohayo Gozaimasu! Bruh-sama~!`);
       }
    
-    else if(session.message.text.toLowerCase().contains('pokemon ') | session.message.text.toLowerCase().contains('digimon ')){
+    else if(session.message.text.toLowerCase().contains('pokemon') | session.message.text.toLowerCase().contains('digimon')){
       session.send(`Pikachu lang kilala ko. Astig kasi ng skill nya, flametrower.`);
       }
    else if(session.message.text.toLowerCase().contains('pikachu ')){
@@ -89,12 +89,12 @@ else if(session.message.text.toLowerCase().contains('meron ka')){
 
  else if(session.message.text.toLowerCase().contains('use ')){
     
-    if(session.message.text.toLowerCase().contains('use hyperbeam ')){
+    if(session.message.text.toLowerCase().contains('use hyperbeam')){
       session.send(`Bowtt used hyperbeam!`);
       session.send(`KAME-HAME-WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA`); 
       session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://static1.bigstockphoto.com/4/2/6/small2/6247476.jpg'}]});
     }
-else if(session.message.text.toLowerCase().contains('use splash ')){
+else if(session.message.text.toLowerCase().contains('use splash')){
       session.send(`Bowtt used splash!`); 
       session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://s-media-cache-ak0.pinimg.com/236x/91/1d/5b/911d5b2c5d919dda6e2d371276e97650.jpg'}]});
       session.send(`......instantly killed enemies nearby.`); 
