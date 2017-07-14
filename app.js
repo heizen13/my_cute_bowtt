@@ -107,6 +107,9 @@ else if(session.message.text.toLowerCase().contains('use splash')){
    else if(session.message.text.toLowerCase().contains('bobo')){
       session.send(`weaboo ka naman. :D`);
    }
+else if(session.message.text.toLowerCase().contains('angas') | session.message.text.toLowerCase().contains('yabang')){
+      session.send(` (cool) `);
+   }
    else{
         session.send(session.message.text);
       }
