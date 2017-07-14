@@ -105,7 +105,7 @@ else if(session.message.text.toLowerCase().contains('use splash')){
     }
    
    else if(session.message.text.toLowerCase().contains('bobo')){
-      session.send(`weaboo ka naman. :D`);
+      session.send(`weaboo ka naman. :P`);
    }
 else if(session.message.text.toLowerCase().contains('angas') | session.message.text.toLowerCase().contains('yabang')){
       session.send(` (cool) `);
@@ -113,6 +113,10 @@ else if(session.message.text.toLowerCase().contains('angas') | session.message.t
    
    else if(session.message.text.toLowerCase().contains('pogi ba')){
       session.send(` (puke) `);
+   }
+
+else if(session.message.text.toLowerCase().contains('weather')){
+      session.send(` google mo nalang.. `);
    }
    
    else{
