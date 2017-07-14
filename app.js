@@ -125,6 +125,10 @@ else if(session.message.text.toLowerCase().contains('bad ka') | session.message.
 else if(session.message.text.toLowerCase().contains('useless')){
       session.send(`C-A-N-C-E-R ka naman!! :P`);
    }
+
+else if(session.message.text.toLowerCase().contains('say ')){
+      session.send(`session.message.text`);
+   }
    
    else{
         session.send(session.message.text);
