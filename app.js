@@ -59,9 +59,14 @@ bot.dialog('/', function (session) {
       session.send(`Timesheet-timesheet din kasi pag may time!!! (cwl) `);
       }
    
-   else if(session.message.text.toLowerCase().contains('uwian') | session.message.text.toLowerCase().contains('tara uwi')){
+   else if(session.message.text.toLowerCase().contains('uwi')){
       session.send(`Edi umuwi ka! Yan lang naman habol mo bago ka pumasok. Gusto mo na agad umuwi!!! |-( `);
       }
+   
+   else if(session.message.text.toLowerCase().contains('kanteen' | 'canteen')){
+      session.send(`My favorite digimonster! <3`);
+      }
+   
    else if(session.message.text.toLowerCase().contains('suplado mo') | session.message.text.toLowerCase().contains('galit ka')){
       session.send(` (donttalk) `);
       }
@@ -79,6 +84,8 @@ else if(session.message.text.toLowerCase().contains('meron ka ba ngayon')){
    else if(session.message.text.toLowerCase().contains('pikachu')){
       session.send(`My favorite digimonster! <3`);
       }
+   
+   
 
  else if(session.message.text.toLowerCase().contains('use ')){
     
