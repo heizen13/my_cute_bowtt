@@ -154,6 +154,7 @@ else if(session.message.text.toLowerCase().contains('say ')){
       session.send('(⌐■_■)');
       session.send(' (cool) ');
       session.send('di naman..');
+      session.send('medyo lang.');
    }
    
    else{
