@@ -73,8 +73,8 @@ else if(session.message.text.toLowerCase().contains('meron ka ba ngayon')){
       session.send(`Ohayo Gozaimasu! Bruh-sama~!`);
       }
    
-    else if(session.message.text.toLowerCase().contains('search pokemon')){
-      session.send(`Pikachu lang kilala ko.`);
+    else if(session.message.text.toLowerCase().contains('pokemon')){
+      session.send(`Pikachu lang kilala ko. Astig kasi ng skill nya, flametrower.`);
       }
 
    else{
