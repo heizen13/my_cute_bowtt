@@ -115,7 +115,7 @@ else if(session.message.text.toLowerCase().contains('angas') | session.message.t
       session.send(` (puke) `);
    }
 
-else if(session.message.text.toLowerCase().contains('weather')){
+else if(session.message.text.toLowerCase().contains('what is')){
       session.send(` google mo nalang.. `);
    }
 else if(session.message.text.toLowerCase().contains('bad ka') | session.message.text.toLowerCase().contains('bad mo')){
