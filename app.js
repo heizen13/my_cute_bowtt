@@ -148,7 +148,7 @@ else if(session.message.text.toLowerCase().contains('say ')){
       session.send(' eto ka naman!! ╭∩╮(-_-)╭∩╮ ...dalawa pa!!! ');
    }
    
-   else if(session.message.text.toLowerCase().contains('(astig mo)') | session.message.text.toLowerCase().contains('(astig ka)') ){
+   else if(session.message.text.toLowerCase().contains('astig mo') | session.message.text.toLowerCase().contains('astig ka') ){
       session.send('•_•)');
       session.send('( •_•)>⌐■-■');
       session.send('(⌐■_■)');
