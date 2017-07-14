@@ -116,7 +116,7 @@ else if(session.message.text.toLowerCase().contains('angas') | session.message.t
    }
 
 else if(session.message.text.toLowerCase().contains('what is')){
-      session.send(` google mo nalang.. `);
+      session.send(` ¯\_(ツ)_/¯ google mo nalang.. `);
    }
 else if(session.message.text.toLowerCase().contains('bad ka') | session.message.text.toLowerCase().contains('bad mo')){
       session.send(` BADing ka naman. :P `);
