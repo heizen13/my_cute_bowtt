@@ -78,7 +78,7 @@ else if(session.message.text.toLowerCase().contains('meron ka ba ngayon')){
       }
 
    else{
-        session.send.text;
+        session.message.text;
       }
 });
  
