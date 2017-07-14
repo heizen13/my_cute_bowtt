@@ -69,7 +69,11 @@ else if(session.message.text.toLowerCase().contains('meron ka ba ngayon')){
       session.send(`gago haha`);
       }
    
-   else if(session.message.text.toLowerCase().contains('search pokemon')){
+   else if(session.message.text.toLowerCase().contains('morning') | session.message.text.toLowerCase().contains('ohayo') | session.message.text.toLowerCase().contains('umaga')){
+      session.send(`Ohayo Gozaimasu! Bruh-sama~!`);
+      }
+   
+    else if(session.message.text.toLowerCase().contains('search pokemon')){
       session.send(`Pikachu lang kilala ko.`);
       }
 
