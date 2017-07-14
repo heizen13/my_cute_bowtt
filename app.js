@@ -11,8 +11,8 @@ server.listen(process.env.port || process.env.PORT || 8080, function () {
 // Create chat bot
 var connector = new builder.ChatConnector({
     
-    appId: "7f54774d-801c-44b1-be4b-d32ec508a1b2",
-    appPassword: "S43HgSqqzS0SoRAmEGxcSO8"
+   appId: "45af4b31-b429-4d7a-bcfc-a1edd8bbf462",
+    appPassword: "hPjCboigX1khDz4b7f2kUdc"
    
 });
 var bot = new builder.UniversalBot(connector);
@@ -45,18 +45,14 @@ bot.dialog('/', function (session) {
    
     if(session.message.text.toLowerCase().contains('hello')){
       session.send(`Hello bruh!, Zup bruh?`);
-      }else if(session.message.text.toLowerCase().contains('help')){
-        session.send(`How can I help you bruh? I don't have any money... b-but I can give you a hug..... :$ `);
-          }
+      }
+   
    else if(session.message.text.toLowerCase().contains('who are you') | session.message.text.toLowerCase().contains('sino ka')){
-        session.send("Hello, I'm bowtt. Some people tells me that I look like a balls and a butt but who cares, I'm still a cute bot. ;) ");
+        session.send("Hello, I'm Mr Robutt. Some people tells me that I look like a balls and a butt but who cares, I'm still a cute bot. ;) ");
       }
   
-   else if(session.message.text.toLowerCase().contains('dubidubidap') | session.message.text.toLowerCase().contains('kanta')){
-      session.send(`Beep beep beep.. ang sabi ng jeep.. beep beep beep beep bee-beep beep!!!`);
-      }
-   else if(session.message.text.toLowerCase().contains('delinquent')){
-      session.send(`Timesheet-timesheet din kasi pag may time!!! (cwl) `);
+   else if(session.message.text.toLowerCase().contains('dubidubidap') | session.message.text.toLowerCase().contains('kanta ka')){
+      session.send(`Meep meep meep.. ang sabi ng meep.. meep meep meep meep mee-beem meep!!!`);
       }
    
    else if(session.message.text.toLowerCase().contains('uwi')){
@@ -75,7 +71,7 @@ else if(session.message.text.toLowerCase().contains('meron ka')){
       }
    
    else if(session.message.text.toLowerCase().contains('morning') | session.message.text.toLowerCase().contains('ohayo') | session.message.text.toLowerCase().contains('umaga')){
-      session.send(`Ohayo Gozaimasu! Bruh-sama~!`);
+      session.send(`Ohayo Gozaimasu! pare-ko-sama~!`);
       }
    
     else if(session.message.text.toLowerCase().contains('pokemon') | session.message.text.toLowerCase().contains('digimon')){
@@ -126,18 +122,8 @@ else if(session.message.text.toLowerCase().contains('useless')){
       session.send(`C-A-N-C-E-R ka naman!! :P`);
    }
 
-else if(session.message.text.toLowerCase().contains('say ')){
+else if(session.message.text.toLowerCase().contains('copy ')){
       session.send(session.message.text);
-   }
-   else if(session.message.text.toLowerCase().contains('jibanyan')){
-      session.send(`Siya ang pinakamalakas na player ng Pokeland legend. Walang sinomang mga trainer ang nakakatalo sa kanya. Isa siyang legendary P*KEMASTER!!!`);
-      }
-   
-   else if(session.message.text.toLowerCase().contains('heizen')){
-      session.send('Heizenberg ba? Yung ubod na hina? HAHAHAHA!! Tinatalo lng yan ng master ko!! Si Jibanyan!!!');
-   }
-    else if(session.message.text.toLowerCase().contains('kida')){
-      session.send('Kida? ADIK din yan eh.. Kaso mas malakas parin yung IDOL kong si Jibanyan.');
    }
    
     else if(session.message.text.toLowerCase().contains('yakult')){
@@ -147,6 +133,27 @@ else if(session.message.text.toLowerCase().contains('say ')){
    else if(session.message.text.toLowerCase().contains('(finger)')){
       session.send(' eto ka naman!! ╭∩╮(-_-)╭∩╮ ...dalawa pa!!! ');
    }
+   
+   else if(session.message.text.toLowerCase().contains('kilala mo')){
+   
+   if(session.message.text.toLowerCase().contains('gabia') | session.message.text.toLowerCase().contains('dindo') | session.message.text.toLowerCase().contains('bryan')){
+      session.send("TANG INA MO DINDO!! RAPIST, MANYAKIS, MUKHA'Y NAKAKAINIS. ANG SARAP IHAGIS, SA BALONG PUNO NG IPIS!!! TIME!!!");
+   }
+   
+   else if(session.message.text.toLowerCase().contains('neil') | session.message.text.toLowerCase().contains('gelizon')){
+      session.send('You mean si Kuya Wil? yung kumanta ng...');
+      session.send(`🎵🎵Beep beep beep.. ang sabi ng jeep.. beep beep beep beep bee-beep beep! 🎵🎵`);
+   }
+ else if(session.message.text.toLowerCase().contains('montero') | session.message.text.toLowerCase().contains('gerrem')){
+      session.send('Si Vice ba? Nasa show pa paba yon?');
+   }
+   else if(session.message.text.toLowerCase().contains('salazar') | session.message.text.toLowerCase().contains('piele')){
+      session.send('Ahh yung sumbungero...');
+   }
+   else{
+   session.send('Di ko kilala yan');
+   }
+}
    
    else if(session.message.text.toLowerCase().contains('astig mo') | session.message.text.toLowerCase().contains('astig ka') | session.message.text.toLowerCase().contains('cool mo') ){
       session.send('•_•)');
