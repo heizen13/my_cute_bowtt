@@ -152,7 +152,7 @@ else if(session.message.text.toLowerCase().contains('say ')){
       session.send('•_•)');
       session.send('( •_•)>⌐■-■');
       session.send('(⌐■_■)');
-      session.send(' (cool) );
+      session.send(' (cool) ');
    }
    
    else{
