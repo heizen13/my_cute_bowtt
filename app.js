@@ -110,6 +110,11 @@ else if(session.message.text.toLowerCase().contains('use splash')){
 else if(session.message.text.toLowerCase().contains('angas') | session.message.text.toLowerCase().contains('yabang')){
       session.send(` (cool) `);
    }
+   
+   else if(session.message.text.toLowerCase().contains('pogi ba')){
+      session.send(` (puke) `);
+   }
+   
    else{
         session.send(session.message.text);
       }
