@@ -140,6 +140,10 @@ else if(session.message.text.toLowerCase().contains('say ')){
       session.send('Kida? ADIK din yan eh.. Kaso mas malakas parin yung IDOL kong si Jibanyan.');
    }
    
+    else if(session.message.text.toLowerCase().contains('yakult')){
+      session.send('Yakult everyday, everynight, every-midnight!! Yakult all the time! Yan ang buhay mo!! Puro ka yakult!! Yakult ka ng yakult!! Yakulero!! :D');
+   }
+   
    else{
         session.send(session.message.text);
       }
