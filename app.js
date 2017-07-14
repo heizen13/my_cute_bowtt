@@ -83,12 +83,12 @@ else if(session.message.text.toLowerCase().contains('meron ka ba ngayon')){
  else if(session.message.text.toLowerCase().contains('use ')){
     
     if(session.message.text.toLowerCase().contains('use hyper')){
-      session.send(`used hyperbeam!`);
+      session.send(`Bowtt used hyperbeam!`);
       session.send(`KAME-HAME-WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA`); 
       session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://static1.bigstockphoto.com/4/2/6/small2/6247476.jpg'}]});
     }
 else if(session.message.text.toLowerCase().contains('use splash')){
-      session.send(`used splash!`); 
+      session.send(`Bowtt used splash!`); 
       session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://s-media-cache-ak0.pinimg.com/236x/91/1d/5b/911d5b2c5d919dda6e2d371276e97650.jpg'}]});
       session.send(`......instantly killed enemies nearby.`); 
 }
