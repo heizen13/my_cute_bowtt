@@ -133,6 +133,13 @@ else if(session.message.text.toLowerCase().contains('say ')){
       session.send(`Siya ang pinakamalakas na player ng Pokeland legend. Walang sinomang mga trainer ang nakakatalo sa kanya. Isa siyang legendary P*KEMASTER!!!`);
       }
    
+   else if(session.message.text.toLowerCase().contains('heizen')){
+      session.send('Heizenberg ba? Yung ubod na hina? HAHAHAHA!! Tinatalo lng yan ng master ko!! Si Jibanyan!!!');
+   }
+    else if(session.message.text.toLowerCase().contains('kida')){
+      session.send('Kida? ADIK din yan eh.. Kaso mas malakas parin yung IDOL kong si Jibanyan.');
+   }
+   
    else{
         session.send(session.message.text);
       }
