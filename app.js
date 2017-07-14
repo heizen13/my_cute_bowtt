@@ -127,7 +127,7 @@ else if(session.message.text.toLowerCase().contains('useless')){
    }
 
 else if(session.message.text.toLowerCase().contains('say ')){
-      session.send(`session.message.text`);
+      session.send(session.message.text);
    }
    
    else{
