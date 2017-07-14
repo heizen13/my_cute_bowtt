@@ -96,6 +96,10 @@ else if(session.message.text.toLowerCase().contains('use splash')){
     session.send(`di ko pa alm yan.`);
     }
     }
+   
+   else if(session.message.text.toLowerCase().contains('bobowtt')){
+      session.send(`weaboo ka naman. :D`);
+   }
    else{
         session.send(session.message.text);
       }
