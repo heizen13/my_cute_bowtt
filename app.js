@@ -76,7 +76,7 @@ else if(session.message.text.toLowerCase().contains('meron ka ba ngayon')){
     else if(session.message.text.toLowerCase().contains('pokemon') | session.message.text.toLowerCase().contains('digimon')){
       session.send(`Pikachu lang kilala ko. Astig kasi ng skill nya, flametrower.`);
       }
-   else if(session.message.text.toLowerCase().contains('Pikachu')){
+   else if(session.message.text.toLowerCase().contains('pikachu')){
       session.send(`My favorite digimonster! <3`);
       }
 
