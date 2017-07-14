@@ -80,6 +80,13 @@ else if(session.message.text.toLowerCase().contains('meron ka ba ngayon')){
       session.send(`My favorite digimonster! <3`);
       }
 
+ else if(session.message.text.toLowerCase().contains('use hyperbeam')){
+      session.send(`KA-ME-HA-ME-WAAAAAAA`);
+    
+    session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://static1.bigstockphoto.com/4/2/6/small2/6247476.jpg'}]});
+   session.send(`VAH!`);      
+}
+
    else{
         session.send(session.message.text);
       }
