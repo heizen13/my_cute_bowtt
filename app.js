@@ -202,22 +202,7 @@ else if(session.message.text.toLowerCase().contains('say ')){
    
    
    
-   
-      //youtube
-   
-else if(session.message.text.toLowerCase().contains('play kuya jobert')){
-      
-      var reply = context.MakeMessage(); 
-   reply.Text = "https://youtu.be/I2A-vZ-jLDo"; 
-   await context.PostAsync(reply); 
-   
 
-}
-   
-//youtube   
-   
-   
-   
 
    
    else{
