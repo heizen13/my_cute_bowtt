@@ -186,8 +186,8 @@ else if(session.message.text.toLowerCase().contains('say ')){
 }
     
   else{
-  session.send('Available memes:');
-     session.send('botbad, herewego');
+  session.send('usable memes:');
+     session.send('notbad, herewego');
   }
     
     }
