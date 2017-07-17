@@ -63,7 +63,7 @@ bot.dialog('/', function (session) {
       session.send(`Edi umuwi ka! Yan lang naman habol mo bago ka pumasok. Gusto mo na agad umuwi!!! |-( `);
       }
    
-   else if(session.message.text.toLowerCase().contains('kanteen') | session.message.text.toLowerCase().contains('canteen')){
+   else if(session.message.text.toLowerCase().contains('kanteen') | session.message.text.toLowerCase().contains('canteen') | session.message.text.toLowerCase().contains('kain')){
       session.send(`LEGO~! BETCH!! (cool) `);
       }
    
