@@ -191,7 +191,7 @@ else if(session.message.text.toLowerCase().contains('say ')){
    
    
    else{
-        session.send(' ');
+        session.send('..');
       }
 });
  
