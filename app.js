@@ -147,6 +147,9 @@ else if(session.message.text.toLowerCase().contains('say ')){
    else if(session.message.text.toLowerCase().contains('(finger)')){
       session.send(' eto ka naman!! ╭∩╮(-_-)╭∩╮ ...dalawa pa!!! ');
    }
+    else if(session.message.text.toLowerCase().contains('stupid')){
+      session.send('retarded :P );
+   }
    
    else if(session.message.text.toLowerCase().contains('astig mo') | session.message.text.toLowerCase().contains('astig ka') | session.message.text.toLowerCase().contains('cool mo') ){
       session.send('•_•)');
