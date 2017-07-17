@@ -184,6 +184,12 @@ else if(session.message.text.toLowerCase().contains('say ')){
  else if(session.message.text.toLowerCase().contains('herewego')){
    session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://media.makeameme.org/created/Well-Here-we.jpg'}]});
 }
+    
+  else{
+  session.send('Available memes:');
+     session.send('botbad, herewego');
+  }
+    
     }
    
    
