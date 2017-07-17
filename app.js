@@ -159,11 +159,28 @@ else if(session.message.text.toLowerCase().contains('say ')){
    
    
        
-
+//MEME MEME MEME MEME
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+//MEME MEME MEME MEME
 
            
            
-       
+       else if(session.message.text.toLowerCase().contains('meme notbad')){
+      session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://www.google.com.ph/search?q=meme+notbad&biw=1280&bih=904&tbm=isch&imgil=081FMT_19hVeHM%253A%253B5aGpinzB5VDUuM%253Bhttp%25253A%25252F%25252Fknowyourmeme.com%25252Fphotos%25252F138246-obama-rage-face-not-bad&source=iu&pf=m&fir=081FMT_19hVeHM%253A%252C5aGpinzB5VDUuM%252C_&usg=__4mNfM824clppFiWaQzIaJA8JPQ0%3D'}]});
+      
+}
    
    
    
