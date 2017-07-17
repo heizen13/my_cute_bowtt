@@ -188,7 +188,7 @@ else if(session.message.text.toLowerCase().contains('say ')){
    session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://media.makeameme.org/created/Well-Here-we.jpg'}]});
 }
        
-       else if(session.message.text.toLowerCase().contains('techme')){
+       else if(session.message.text.toLowerCase().contains('teachme')){
    session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://cdn.meme.am/cache/instances/folder599/500x/73464599/dr-strange-teach-teach-me.jpg'}]});
 }
     
