@@ -332,7 +332,7 @@ if(session.message.text.toLowerCase().contains('jibanya') | session.message.text
  //emoticons start ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   
    
- else if(session.message.text.toLowerCase().contains('show face')){
+ else if(session.message.text.toLowerCase().contains('face')){
    
 if(session.message.text.toLowerCase().contains('angry')){
       session.send('(ノಠ益ಠ)ノ彡┻━┻');
