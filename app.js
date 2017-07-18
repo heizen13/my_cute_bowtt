@@ -242,11 +242,15 @@ else if(session.message.text.toLowerCase().contains('useless')){
 else if(session.message.text.toLowerCase().contains('ifyouknow') | session.message.text.toLowerCase().contains('if you know')){
    session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://vignette1.wikia.nocookie.net/adventuretimewithfinnandjake/images/a/aa/If-you-know-what-i-mean-420x250.png/revision/latest?cb=20130217030741'}]});
 }
+ 
+       else if(session.message.text.toLowerCase().contains('no no') | session.message.text.toLowerCase().contains('if you know')){
+   session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'http://weknowmemes.com/wp-content/uploads/2012/03/no-rage-face.png'}]});
+}
        
     
   else{
   session.send('usable memes:');
-session.send('notbad, herewego, teachme, bitch plz, ifyouknow');
+session.send('notbad, herewego, teachme, bitch plz, ifyouknow, no no');
   }
     
     }
