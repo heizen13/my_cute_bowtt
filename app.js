@@ -213,7 +213,7 @@ else if(session.message.text.toLowerCase().contains('useless')){
   if(session.message.text.toLowerCase().contains('notbad')){
    session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'http://i3.kym-cdn.com/photos/images/original/000/138/246/tumblr_lltzgnHi5F1qzib3wo1_400.jpg'}]});
 }
- else if(session.message.text.toLowerCase().contains('herewego')){
+ else if(session.message.text.toLowerCase().contains('herewego') | session.message.text.toLowerCase().contains('here we go')){
    session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://media.makeameme.org/created/Well-Here-we.jpg'}]});
 }
        
