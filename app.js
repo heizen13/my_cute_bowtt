@@ -222,7 +222,7 @@ else if(session.message.text.toLowerCase().contains('useless')){
        
 //meme start ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++    
    
-    else if(session.message.text.toLowerCase().contains('meme ')){
+    else if(session.message.text.toLowerCase().contains('meme')){
        
   if(session.message.text.toLowerCase().contains('notbad')){
    session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'http://i3.kym-cdn.com/photos/images/original/000/138/246/tumblr_lltzgnHi5F1qzib3wo1_400.jpg'}]});
