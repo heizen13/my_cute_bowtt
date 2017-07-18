@@ -147,7 +147,7 @@ else if(session.message.text.toLowerCase().contains('useless')){
    
 //kilala begin ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
    
-    else if(session.message.text.toLowerCase().contains('kilala mo ba si ')){
+    else if(session.message.text.toLowerCase().contains('kilala mo ba si')){
    
    if(session.message.text.toLowerCase().contains('jibanyan') | session.message.text.toLowerCase().contains('james')){
       session.send(`Siya ang pinakamalakas na player ng Pokeland legend. Walang sinomang mga trainer ang nakakatalo sa kanya. Isa siyang legendary P*KEMON MASTUR!!!`);
