@@ -112,6 +112,17 @@ else if(session.message.text.toLowerCase().contains('use splash')){
    
 //trashtalk start  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
    
+   else if(session.message.text.toLowerCase().contains('(finger)')){
+      session.send(' eto ka naman!! ╭∩╮(-_-)╭∩╮ ...dalawa pa!!! ');
+   }
+    else if(session.message.text.toLowerCase().contains('stupid')){
+      session.send('retarded :P ');
+   }
+   
+     else if(session.message.text.toLowerCase().contains('panget ka') | session.message.text.toLowerCase().contains('panget mo')){
+      session.send('Ano ka parrot? :D');
+   }
+   
    
    else if(session.message.text.toLowerCase().contains('bobo')){
       session.send(`weaboo ka naman. :P`);
@@ -227,12 +238,7 @@ else if(session.message.text.toLowerCase().contains('useless')){
    
 
 //others start ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-      else if(session.message.text.toLowerCase().contains('(finger)')){
-      session.send(' eto ka naman!! ╭∩╮(-_-)╭∩╮ ...dalawa pa!!! ');
-   }
-    else if(session.message.text.toLowerCase().contains('stupid')){
-      session.send('retarded :P ');
-   }
+      
    
    else if(session.message.text.toLowerCase().contains('astig mo') | session.message.text.toLowerCase().contains('astig ka') | session.message.text.toLowerCase().contains('cool mo') ){
       session.send('•_•)');
@@ -248,6 +254,10 @@ else if(session.message.text.toLowerCase().contains('what is')){
       session.send(` ¯\_(ツ)_/¯ google mo nalang.. `);
 }
    else if(session.message.text.toLowerCase().contains('say ')){
+      session.send(session.message.text);
+   }
+   
+   else if(session.message.text.toLowerCase().contains('sino mas malakas')){
       session.send(session.message.text);
    }
   
