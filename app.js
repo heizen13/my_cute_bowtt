@@ -188,7 +188,7 @@ else if(session.message.text.toLowerCase().contains('useless')){
    
  //burnin tropa begin ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-  else if(session.message.text.toLowerCase().contains('shino')){
+  else if(session.message.text.toLowerCase().contains('shino') | session.message.text.toLowerCase().contains('bhen')){
       session.send('Si shino? Isa sa mga IDOL ko yan!! Ang lalakas ng mga pokemon nyan eh. Kung kaserver lng ni heizenberg yan baka dinudurog-durog lng ni Master Shino yan. HAHAAHA :P');
    }
    else if(session.message.text.toLowerCase().contains('hero') | session.message.text.toLowerCase().contains('japh')){
