@@ -341,6 +341,9 @@ if(session.message.text.toLowerCase().contains('jibanya') | session.message.text
 if(session.message.text.toLowerCase().contains('angry')){
       session.send('(ノಠ益ಠ)ノ彡┻━┻');
    }
+else if(session.message.text.toLowerCase().contains('angry 2') | session.message.text.toLowerCase().contains('angry2')){
+      session.send('ლ(ಠ益ಠლ)');
+   }
     
 else if(session.message.text.toLowerCase().contains('sad')){
       session.send('(ಥ﹏ಥ)');
