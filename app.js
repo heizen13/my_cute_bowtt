@@ -167,7 +167,7 @@ else if(session.message.text.toLowerCase().contains('useless')){
   else if(session.message.text.toLowerCase().contains('shino')){
       session.send('Si shino? Isa sa mga IDOL ko yan!! Ang lalakas ng mga pokemon nyan eh. Kung kaserver lng ni heizenberg yan baka dinudurog-durog lng ni Master Shino yan. HAHAAHA :P');
    }
-   else if(session.message.text.toLowerCase().contains('hero')){
+   else if(session.message.text.toLowerCase().contains('hero') | session.message.text.toLowerCase().contains('japh')){
       session.send('Si master HERO!!! Isa sa mga tinitingala kong p*kemon master!!! Pero solid parin ako kina Mastur Jibanyan at Mastur Kida!!!');
    }
    
