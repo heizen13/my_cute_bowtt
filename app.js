@@ -51,6 +51,7 @@ bot.dialog('/', function (session) {
         session.send(`kilala mo ba si [IGN] ex. "kilala mo ba si jibanyan"`);
         session.send(`meme [meme_code] ex. "meme notbad"`);
          session.send(`!play [title] ex. "!play almuranas"`);
+         session.send(`show face [expression] ex. "show face love"`);
 session.send(`.......`);         
 session.send(`Others: `);
          session.send(`yakult, astig mo, useless, kuya jobert, pokemon, pikachu"`);
@@ -328,9 +329,49 @@ if(session.message.text.toLowerCase().contains('jibanya') | session.message.text
       }
    }
   
+ //emoticons start ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   
-//others end ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
    
+ else if(session.message.text.toLowerCase().contains('show face ')){
+   
+else if(session.message.text.toLowerCase().contains('angry')){
+      session.send('(ノಠ益ಠ)ノ彡┻━┻');
+   }
+    
+else if(session.message.text.toLowerCase().contains('sad')){
+      session.send('(ಥ﹏ಥ)');
+   }
+    else if(session.message.text.toLowerCase().contains('happy')){
+      session.send('(｡◕‿◕｡)');
+   }
+    
+      else if(session.message.text.toLowerCase().contains('wink')){
+      session.send('◕‿↼');
+   }
+        else if(session.message.text.toLowerCase().contains('love')){
+      session.send('♥‿♥');
+   }
+   else if(session.message.text.toLowerCase().contains('poker')){
+      session.send('(͡° ͜ʖ ͡°)');
+   }
+    else if(session.message.text.toLowerCase().contains('worry')){
+      session.send('⊙﹏⊙');
+   }
+    else{
+      
+       session.send('available face: ');
+    session.send('angry, happy, wink, love, poker, worry');
+    }
+    
+    
+   }   
+   
+   
+   
+   
+   
+//emoticons end ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 
    
    else{
