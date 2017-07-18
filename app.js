@@ -130,19 +130,43 @@ else if(session.message.text.toLowerCase().contains('say ')){
       session.send(session.message.text);
    }
    else if(session.message.text.toLowerCase().contains('jibanyan')){
-      session.send(`Siya ang pinakamalakas na player ng Pokeland legend. Walang sinomang mga trainer ang nakakatalo sa kanya. Isa siyang legendary P*KEMASTER!!!`);
+      session.send(`Siya ang pinakamalakas na player ng Pokeland legend. Walang sinomang mga trainer ang nakakatalo sa kanya. Isa siyang legendary P*KEMON MASTUR!!!`);
       }
    
    else if(session.message.text.toLowerCase().contains('heizen')){
       session.send('Heizenberg ba? Yung ubod na hina? HAHAHAHA!! Tinatalo lng yan ng master ko!! Si Jibanyan!!!');
    }
     else if(session.message.text.toLowerCase().contains('kida') | session.message.text.toLowerCase().contains('kidda')){
-      session.send('Kida? ADIK din yan eh.. Kaso mas malakas parin yung IDOL kong si Jibanyan.');
+      session.send('Kida? ADIK din yan eh.. Ang lakas din nyan!! Sobra!! Sila ni Master Jibanyan mga ininidolo kong p*kemon Mastur!!.');
    }
    
-   else if(session.message.text.toLowerCase().contains('shino')){
-      session.send('Si shino? Isa sa mga IDOL ko yan!! Ang lalakas ng mga pokemon nyan eh. Kung kaserver lng nila heizenberg at Kida yan baka dinudurog-durog lng ni Master Shino mga yan. HAHAAHA :P');
+   
+   
+ //burnin tropaburnin trburnin tropaopaburnin tropaburnin tropaburnin tropaburnin tropa
+   //burnin tropaburnin tropaburnin tropaburnin tropaburnin tropaburnin tropaburnin tropaburnin tropa
+   
+   else if(session.message.text.toLowerCase().contains('kilala mo ba si ')){
+   
+   if(session.message.text.toLowerCase().contains('shino')){
+      session.send('Si shino? Isa sa mga IDOL ko yan!! Ang lalakas ng mga pokemon nyan eh. Kung kaserver lng ni heizenberg yan baka dinudurog-durog lng ni Master Shino yan. HAHAAHA :P');
    }
+   else if(session.message.text.toLowerCase().contains('hero')){
+      session.send('Si master HERO!!! Isa sa mga tinitingala kong p*kemon master!!! Pero solid parin ako kina Mastur Jibanyan at Mastur Kida!!!');
+   }
+   
+   else if(session.message.text.toLowerCase().contains('jaymar')){
+      session.send('Si master Jaymar!!! Isa sa mga tinitingala kong p*kemon master!!! Pero solid parin ako kina Mastur Jibanyan at Mastur Kida!!!');
+   }
+  
+      else{
+     session.send('di ko kilala yan. sorry :(');
+      }
+   }
+   
+   
+//burnin tropaburnin trburnin tropaopaburnin tropaburnin tropaburnin tropaburnin tropa
+   //burnin tropaburnin tropaburnin tropaburnin tropaburnin tropaburnin tropaburnin tropaburnin tropa
+  
    
    
     else if(session.message.text.toLowerCase().contains('yakult')){
