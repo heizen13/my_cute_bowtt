@@ -258,8 +258,20 @@ else if(session.message.text.toLowerCase().contains('what is')){
    }
    
    else if(session.message.text.toLowerCase().contains('sino mas malakas')){
-      session.send(session.message.text);
+      session.send('Parehas malakas para sakin.');
    }
+   
+   else if(session.message.text.toLowerCase().contains('sino mas malakas')){
+      
+if(session.message.text.toLowerCase().contains('jibanya') | session.message.text.toLowerCase().contains('james')){
+      
+      session.send('Syempre si Mastur Jibanyan!! Idol ko yan eh!!');
+}
+      else{
+         session.send('hehe, parehas silang mahina! :D');
+      }
+   }
+   
   
 //others end ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
    
