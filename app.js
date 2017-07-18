@@ -51,9 +51,9 @@ bot.dialog('/', function (session) {
         session.send(`kilala mo ba si [IGN] ex. "kilala mo ba si jibanyan"`);
         session.send(`meme [meme_code] ex. "meme notbad"`);
          session.send(`!play [title] ex. "!play almuranas"`);
-session.send(`......."`);         
-session.send(`Others: "`);
-         session.send(`yakult, astig mo, useless "`);
+session.send(`.......`);         
+session.send(`Others: `);
+         session.send(`yakult, astig mo, useless, kuya jobert, pokemon, pikachu"`);
          
          
           }
