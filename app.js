@@ -47,11 +47,11 @@ bot.dialog('/', function (session) {
       session.send(`Hello bruh!, Zup bruh?`);
       }else if(session.message.text.toLowerCase().contains('help')){
         session.send(`Available commands:`);
-         session.send(`use [skills] ex. "use splash/hyperbeam/sing"`);
-        session.send(`kilala mo ba si [IGN] ex. "kilala mo ba si jibanyan"`);
-        session.send(`meme [meme_code] ex. "meme notbad"`);
-         session.send(`!play [title] ex. "!play almuranas"`);
-         session.send(`show face [expression] ex. "show face love"`);
+         session.send(`(1)use [skills] ex. "use splash/hyperbeam/sing"`);
+        session.send(`(2)kilala mo ba si [IGN] ex. "kilala mo ba si jibanyan"`);
+        session.send(`(3)meme [meme_code] ex. "meme notbad"`);
+         session.send(`(4)!play [title] ex. "!play almuranas"`);
+         session.send(`(5)show face [expression] ex. "show face love"`);
 session.send(`.......`);         
 session.send(`Others: `);
          session.send(`yakult, astig mo, useless, kuya jobert, pokemon, pikachu"`);
