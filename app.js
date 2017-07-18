@@ -136,9 +136,14 @@ else if(session.message.text.toLowerCase().contains('say ')){
    else if(session.message.text.toLowerCase().contains('heizen')){
       session.send('Heizenberg ba? Yung ubod na hina? HAHAHAHA!! Tinatalo lng yan ng master ko!! Si Jibanyan!!!');
    }
-    else if(session.message.text.toLowerCase().contains('kida')){
+    else if(session.message.text.toLowerCase().contains('kida') | session.message.text.toLowerCase().contains('kidda')){
       session.send('Kida? ADIK din yan eh.. Kaso mas malakas parin yung IDOL kong si Jibanyan.');
    }
+   
+   else if(session.message.text.toLowerCase().contains('shino')){
+      session.send('Si shino? Isa sa mga IDOL ko yan!! Ang lalakas ng mga pokemon nyan eh. Kung kaserver lng nila heizenberg at Kida yan baka dinudurog-durog lng ni Master Shino mga yan. HAHAAHA :P');
+   }
+   
    
     else if(session.message.text.toLowerCase().contains('yakult')){
       session.send('Yakult everyday, everynight, every-midnight!! Yakult all the time! Yan ang buhay mo!! Puro ka yakult!! Yakult ka ng yakult!! Yakulero!! :D');
