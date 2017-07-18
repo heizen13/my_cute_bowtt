@@ -258,13 +258,16 @@ session.send('notbad, herewego, teachme, bitch plz, ifyouknow');
 }
  else if(session.message.text.toLowerCase().contains('!play')){
       if(session.message.text.toLowerCase().contains('utot')){
+         session.send(`Utot..`);
       session.send(`https://www.youtube.com/watch?v=rgFwoyPyoFA`);
       }
    else if(session.message.text.toLowerCase().contains('almuranas')){
+      session.send(`Almuranas..`);
    session.send(`https://www.youtube.com/watch?v=I2A-vZ-jLDo`);
    }
-      else if(session.message.text.toLowerCase().contains('almuranas')){
-   session.send(`https://www.youtube.com/watch?v=yhtqG8ILWQc`);
+      else if(session.message.text.toLowerCase().contains('champorado')){
+         session.send(`Champorado..`);
+   session.send('https://www.youtube.com/watch?v=yhtqG8ILWQc`);
    }
     else {
        session.send(`Available classic Kuya Jobert..`);
