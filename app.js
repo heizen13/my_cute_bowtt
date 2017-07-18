@@ -46,7 +46,16 @@ bot.dialog('/', function (session) {
     if(session.message.text.toLowerCase().contains('hello')){
       session.send(`Hello bruh!, Zup bruh?`);
       }else if(session.message.text.toLowerCase().contains('help')){
-        session.send(`How can I help you bruh? I don't have any money... b-but I can give you a hug..... :$ `);
+        session.send(`Available commands:`);
+         session.send(`use [skills] ex. "use splash/hyperbeam/sing"`);
+        session.send(`kilala mo ba si [IGN] ex. "kilala mo ba si jibanyan"`);
+        session.send(`meme [meme_code] ex. "meme notbad"`);
+         session.send(`!play [title] ex. "!play almuranas"`);
+session.send(`......."`);         
+session.send(`Others: "`);
+         session.send(`yakult, astig mo, useless "`);
+         
+         
           }
    else if(session.message.text.toLowerCase().contains('who are you') | session.message.text.toLowerCase().contains('sino ka')){
         session.send("Hello, I'm bowtt. Some people tells me that I look like a balls and a butt but who cares, I'm still a cute bot. ;) ");
