@@ -266,8 +266,8 @@ session.send('notbad, herewego, teachme, bitch plz, ifyouknow');
    session.send(`https://www.youtube.com/watch?v=I2A-vZ-jLDo`);
    }
       else if(session.message.text.toLowerCase().contains('champorado')){
-         session.send(`Champorado..`);
-   session.send('https://www.youtube.com/watch?v=yhtqG8ILWQc`);
+          session.send('https://www.youtube.com/watch?v=yhtqG8ILWQc');
+  
    }
     else {
        session.send(`Available classic Kuya Jobert..`);
