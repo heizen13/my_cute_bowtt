@@ -258,8 +258,8 @@ session.send('notbad, herewego, teachme, bitch plz, ifyouknow');
    }
 
 
-else if(session.message.text.toLowerCase().contains('what is')){
-      session.send(` ¯\_(ツ)_/¯ google mo nalang.. `);
+else if(session.message.text.toLowerCase().contains('what is ') | session.message.text.toLowerCase().contains('define ')){
+      session.send(`¯\_(ツ)_/¯ google mo nalang.. `);
 }
    else if(session.message.text.toLowerCase().contains('say ')){
       session.send(session.message.text);
@@ -279,7 +279,7 @@ if(session.message.text.toLowerCase().contains('jibanya') | session.message.text
          session.send('hehe, parehas silang mahina! :D');
       }
    }
-   
+  
   
 //others end ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
    
