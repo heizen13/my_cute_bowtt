@@ -86,7 +86,7 @@ else if(session.message.text.toLowerCase().contains('meron ka')){
       }
    
    
-
+//skills start +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
  else if(session.message.text.toLowerCase().contains('use ')){
     
     if(session.message.text.toLowerCase().contains('use hyperbeam')){
@@ -99,10 +99,19 @@ else if(session.message.text.toLowerCase().contains('use splash')){
       session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://s-media-cache-ak0.pinimg.com/236x/91/1d/5b/911d5b2c5d919dda6e2d371276e97650.jpg'}]});
       session.send(`......instantly killed enemies nearby.`); 
 }
+    
+    
     else{
     session.send(`di ko pa alm yan.`);
     }
     }
+   
+//skills end +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   
+ 
+   
+//trashtalk start  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   
    
    else if(session.message.text.toLowerCase().contains('bobo')){
       session.send(`weaboo ka naman. :P`);
@@ -112,11 +121,17 @@ else if(session.message.text.toLowerCase().contains('angas') | session.message.t
    }
    
    else if(session.message.text.toLowerCase().contains('pogi ba')){
-      session.send(` (puke) `);
+      if(session.message.text.toLowerCase().contains('jibanyan') | session.message.text.toLowerCase().contains('james')){
+      session.send(` Mabait.. :D `);
+      }
+      else{
+         
+       session.send(` (puke) `);
+      
+      }
    }
 
-else if(session.message.text.toLowerCase().contains('what is')){
-      session.send(` ¯\_(ツ)_/¯ google mo nalang.. `);
+
    }
 else if(session.message.text.toLowerCase().contains('bad ka') | session.message.text.toLowerCase().contains('bad mo')){
       session.send(` BADing ka naman. :P `);
@@ -125,11 +140,18 @@ else if(session.message.text.toLowerCase().contains('bad ka') | session.message.
 else if(session.message.text.toLowerCase().contains('useless')){
       session.send(`C-A-N-C-E-R ka naman!! :P`);
    }
+   
+//trashtalk end +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-else if(session.message.text.toLowerCase().contains('say ')){
-      session.send(session.message.text);
-   }
-   else if(session.message.text.toLowerCase().contains('jibanyan')){
+
+   
+   
+   
+//kilala begin ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   
+    else if(session.message.text.toLowerCase().contains('kilala mo ba si ')){
+   
+   if(session.message.text.toLowerCase().contains('jibanyan') | session.message.text.toLowerCase().contains('james')){
       session.send(`Siya ang pinakamalakas na player ng Pokeland legend. Walang sinomang mga trainer ang nakakatalo sa kanya. Isa siyang legendary P*KEMON MASTUR!!!`);
       }
    
@@ -142,12 +164,9 @@ else if(session.message.text.toLowerCase().contains('say ')){
    
    
    
- //burnin tropaburnin trburnin tropaopaburnin tropaburnin tropaburnin tropaburnin tropa
-   //burnin tropaburnin tropaburnin tropaburnin tropaburnin tropaburnin tropaburnin tropaburnin tropa
-   
-   else if(session.message.text.toLowerCase().contains('kilala mo ba si ')){
-   
-   if(session.message.text.toLowerCase().contains('shino')){
+ //burnin tropa begin ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+  else if(session.message.text.toLowerCase().contains('shino')){
       session.send('Si shino? Isa sa mga IDOL ko yan!! Ang lalakas ng mga pokemon nyan eh. Kung kaserver lng ni heizenberg yan baka dinudurog-durog lng ni Master Shino yan. HAHAAHA :P');
    }
    else if(session.message.text.toLowerCase().contains('hero')){
@@ -157,57 +176,29 @@ else if(session.message.text.toLowerCase().contains('say ')){
    else if(session.message.text.toLowerCase().contains('jaymar')){
       session.send('Si master Jaymar!!! Isa sa mga tinitingala kong p*kemon master!!! Pero solid parin ako kina Mastur Jibanyan at Mastur Kida!!!');
    }
+       
+       
+//burnin tropa end ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   
       else{
      session.send('di ko kilala yan. sorry :(');
       }
    }
    
-   
-//burnin tropaburnin trburnin tropaopaburnin tropaburnin tropaburnin tropaburnin tropa
-   //burnin tropaburnin tropaburnin tropaburnin tropaburnin tropaburnin tropaburnin tropaburnin tropa
-  
+//kilala end ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
    
    
+   
+//yakult start ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     else if(session.message.text.toLowerCase().contains('yakult')){
       session.send('Yakult everyday, everynight, every-midnight!! Yakult all the time! Yan ang buhay mo!! Puro ka yakult!! Yakult ka ng yakult!! Yakulero!! :D');
    }
-   
-   else if(session.message.text.toLowerCase().contains('(finger)')){
-      session.send(' eto ka naman!! ╭∩╮(-_-)╭∩╮ ...dalawa pa!!! ');
-   }
-    else if(session.message.text.toLowerCase().contains('stupid')){
-      session.send('retarded :P ');
-   }
-   
-   else if(session.message.text.toLowerCase().contains('astig mo') | session.message.text.toLowerCase().contains('astig ka') | session.message.text.toLowerCase().contains('cool mo') ){
-      session.send('•_•)');
-      session.send('( •_•)>⌐■-■');
-      session.send('(⌐■_■)');
-      session.send(' (cool) ');
-      session.send('di naman..');
-      session.send('medyo lang.');
-   }
+ //yakult end ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
    
    
        
-//MEME MEME MEME MEME
+//meme start ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++    
    
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-   
-
-
-           
     else if(session.message.text.toLowerCase().contains('meme ')){
        
   if(session.message.text.toLowerCase().contains('notbad')){
@@ -234,9 +225,36 @@ else if(session.message.text.toLowerCase().contains('say ')){
     }
    
    
- //MEME MEME MEME MEME  
+//meme end ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
    
 
+//others start ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+      else if(session.message.text.toLowerCase().contains('(finger)')){
+      session.send(' eto ka naman!! ╭∩╮(-_-)╭∩╮ ...dalawa pa!!! ');
+   }
+    else if(session.message.text.toLowerCase().contains('stupid')){
+      session.send('retarded :P ');
+   }
+   
+   else if(session.message.text.toLowerCase().contains('astig mo') | session.message.text.toLowerCase().contains('astig ka') | session.message.text.toLowerCase().contains('cool mo') ){
+      session.send('•_•)');
+      session.send('( •_•)>⌐■-■');
+      session.send('(⌐■_■)');
+      session.send(' (cool) ');
+      session.send('di naman..');
+      session.send('medyo lang.');
+   }
+
+
+else if(session.message.text.toLowerCase().contains('what is')){
+      session.send(` ¯\_(ツ)_/¯ google mo nalang.. `);
+   
+   else if(session.message.text.toLowerCase().contains('say ')){
+      session.send(session.message.text);
+   }
+  
+//others end ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+   
 
    
    else{
