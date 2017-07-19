@@ -320,7 +320,7 @@ session.send('notbad, herewego, teachme, bitch plz, ifyouknow, no no, gaay');
   else if(session.message.text.toLowerCase().contains('belat')){
       session.send('👂--👀');
       session.send(' . . . . 👃');
-      session.send(' -\__👅');
+      session.send(', -\__👅');
    }
 
 else if(session.message.text.toLowerCase().contains('what is ') | session.message.text.toLowerCase().contains('define ')){
