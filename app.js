@@ -383,7 +383,7 @@ else if(session.message.text.toLowerCase().contains('sad')){
 
    
    else{
-        session.send(session.message.user.name);
+        session.send("Hi " + session.message.user.name);
       }
 });
  
