@@ -362,7 +362,7 @@ else if(session.message.text.toLowerCase().contains('sad')){
       session.send('(͡° ͜ʖ ͡°)');
    }
     else if(session.message.text.toLowerCase().contains('worry')){
-      session.send('⊙﹏⊙');
+      session.send('(⊙﹏⊙)');
    }
   
    else{
