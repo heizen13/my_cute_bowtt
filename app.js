@@ -184,6 +184,9 @@ else if(session.message.text.toLowerCase().contains('useless')){
     else if(session.message.text.toLowerCase().contains('kida') | session.message.text.toLowerCase().contains('kidda')){
       session.send('Kida? ADIK din yan eh.. Ang lakas din nyan!! Sobra!! Sila ni Master Jibanyan mga ininidolo kong p*kemon Mastur!!.');
    }
+   else if(session.message.text.toLowerCase().contains('bowtt')){
+      session.send('Oo naman, siya yung cute na at matalino pa. :D');
+   }    
    
    
    
