@@ -318,9 +318,12 @@ session.send('notbad, herewego, teachme, bitch plz, ifyouknow, no no, gaay');
       session.send('medyo lang.');
    }
   else if(session.message.text.toLowerCase().contains('belat')){
+     var str = ", -\__👅";
+         
       session.send('👂--👀');
       session.send(' . . . . 👃');
-      session.send(', -\__👅');
+      session.send(str.replace(/'/g, "\\'"));
+     
    }
 
 else if(session.message.text.toLowerCase().contains('what is ') | session.message.text.toLowerCase().contains('define ')){
