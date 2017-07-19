@@ -317,7 +317,11 @@ session.send('notbad, herewego, teachme, bitch plz, ifyouknow, no no, gaay');
       session.send('di naman..');
       session.send('medyo lang.');
    }
-
+  else if(session.message.text.toLowerCase().contains('belat')){
+      session.send('👂--👀');
+      session.send(' . . . . 👃');
+      session.send(' -\__👅');
+   }
 
 else if(session.message.text.toLowerCase().contains('what is ') | session.message.text.toLowerCase().contains('define ')){
       session.send(`¯\_(ツ)_/¯ google mo nalang.. `);
