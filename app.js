@@ -353,10 +353,10 @@ else if(session.message.text.toLowerCase().contains('sad')){
    }
     
       else if(session.message.text.toLowerCase().contains('wink')){
-      session.send('◕‿↼');
+      session.send('(◕‿↼)');
    }
         else if(session.message.text.toLowerCase().contains('love')){
-      session.send('♥‿♥');
+      session.send('(♥‿♥)');
    }
    else if(session.message.text.toLowerCase().contains('poker')){
       session.send('(͡° ͜ʖ ͡°)');
