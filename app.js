@@ -402,7 +402,7 @@ else if(session.message.text.toLowerCase().contains('sad')){
 
    
    else{
-        session.send("Hi " + session.message.user.name);
+        session.send("Hi " + session.message.user.name + "! Try to use the 'help' command");
       }
 });
  
