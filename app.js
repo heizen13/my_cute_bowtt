@@ -321,7 +321,7 @@ session.send('notbad, herewego, teachme, bitch plz, ifyouknow, no no, gaay');
      
          
       session.send('👂--👀');
-      session.send(' . . . . 👃');
+      session.send(' . : . : 👃');
       session.send(',-/\\__👅');
      
    }
