@@ -322,7 +322,7 @@ session.send('notbad, herewego, teachme, bitch plz, ifyouknow, no no, gaay');
          
       session.send('👂--👀');
       session.send(' . . . . 👃');
-      session.send(str.replace(/'/g, "\\'"));
+      session.send(str.replace(/[\-\[\]{}()*+?.,\\\^$|#\s]/g, "\\$&"));
      
    }
 
