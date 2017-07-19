@@ -367,11 +367,15 @@ else if(session.message.text.toLowerCase().contains('sad')){
     else if(session.message.text.toLowerCase().contains('worry')){
       session.send('(⊙﹏⊙)');
    }
+    
+     else if(session.message.text.toLowerCase().contains('wtf')){
+      session.send('┬──┬ ノ( ゜-゜ノ)');
+   }
   
    else{
       
     session.send('available face: ');
-    session.send('angry, happy, wink, love, poker, worry');
+    session.send('angry, happy, wink, love, poker, worry, wtf');
     }
     
     
