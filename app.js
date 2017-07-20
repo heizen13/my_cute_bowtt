@@ -313,7 +313,54 @@ session.send('notbad, herewego, teachme, bitch plz, ifyouknow, no no, gaay, wow,
    
 //kuya jobert end ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++    
    
+  
    
+//what is start ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   
+   
+   
+   else if(session.message.text.toLowerCase().contains('what is ') | session.message.text.toLowerCase().contains('define ')){
+   
+   if(session.message.text.toLowerCase().contains('love')){
+   session.send(`googling love...`);
+   session.send(`searching love...`);
+   session.send(`fetching love...`);
+    session.send(`Love not found.`);
+     
+   }
+else if(session.message.text.toLowerCase().contains('forever') | session.message.text.toLowerCase().contains('poreber')){
+   session.send(`googling forever...`);
+   session.send(`searching forever...`);
+   session.send(`fetching forever...`);
+    session.send(`forevers doesn't exist.`);
+  }
+else if(session.message.text.toLowerCase().contains('crush')){
+   session.send(`googling crush...`);
+   session.send(`searching crush...`);
+   session.send(`fetching crush...`);
+    session.send(`Crush is already taken..`);
+  }
+else if(session.message.text.toLowerCase().contains('destiny')){
+   session.send(`googling destiny...`);
+   session.send(`searching destiny...`);
+   session.send(`fetching destiny...`);
+    session.send(`1 destiny is found.`);
+   session.send(`Your destiny is currently f*cking his/her boy/girlfriend.`);
+  }
+else if(session.message.text.toLowerCase().contains('alone')){
+   session.send(`googling alone...`);
+   session.send(`searching alone...`);
+   session.send(`fetching alone...`);
+    session.send(`1 alone is found.`);
+   session.send(`Yeah... and that was you..`);
+  }
+      
+      else{
+   session.send(`¯\_(ツ)_/¯ google mo nalang.. `);
+   }
+}
+   
+   
+//what is end ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++   
    
    
    
@@ -338,9 +385,9 @@ session.send('notbad, herewego, teachme, bitch plz, ifyouknow, no no, gaay, wow,
      
    }
 
-else if(session.message.text.toLowerCase().contains('what is ') | session.message.text.toLowerCase().contains('define ')){
-      session.send(`¯\_(ツ)_/¯ google mo nalang.. `);
-}
+  
+   
+
    else if(session.message.text.toLowerCase().contains('say ')){
       session.send(session.message.text);
    }
