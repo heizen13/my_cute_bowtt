@@ -459,17 +459,12 @@ else if(session.message.text.toLowerCase().contains('sad')){
   
   
 else if(session.message.text.toLowerCase().contains('sample add')){
-      str = session.message.text;
-  commands = str.split('add')[1];
+      
 
  var mongoose = require('mongoose');
 mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds032887.mlab.com:32887/bowtt_db');
 
-var db = mongoose.connection;
-db.on('error', console.error.bind(console, 'connection error:'));
-db.once('open', function() {
-  // we're connected!
-});
+
 
 var kittySchema = mongoose.Schema({
     name: String
