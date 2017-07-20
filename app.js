@@ -462,7 +462,7 @@ else if(session.message.text.toLowerCase().contains('sample add')){
       
 
  var mongoose = require('mongoose');
-mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds032887.mlab.com:32887/bowtt_db');
+mongoose.connect('mongodb://<heizen>:<1234>@ds032887.mlab.com:32887/bowtt_db');
 
 
 } 
