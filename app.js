@@ -466,18 +466,7 @@ else if(session.message.text.toLowerCase().contains('sad')){
 });
 
      
-  str = session.message.text;
-  commands = str.split('add')[1];
-     
-   con.connect(function(err) {
-  if (err) throw err;
-  
-  var sql = "INSERT INTO commands (message) VALUES (?)",[commands];
-  con.query(sql, function (err, result) {
-    if (err) throw err;
-    
-  });
-});
+
            
            }
    
