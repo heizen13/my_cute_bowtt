@@ -59,7 +59,8 @@ bot.dialog('/', function (session) {
         session.send(`(3)meme [meme_code] ex. "meme notbad"`);
          session.send(`(4)!play [title] ex. "!play almuranas"`);
          session.send(`(5)show face [expression] ex. "show face love"`);
-session.send(`.......`);         
+          session.send(`(5)what is [keyword]? ex. "what is love?"`);
+session.send(`*****************************`);         
 session.send(`Others: `);
          session.send(`yakult, astig mo, useless, kuya jobert, pokemon, pikachu"`);
          
@@ -457,6 +458,29 @@ else if(session.message.text.toLowerCase().contains('sad')){
 
   
   
+else if(session.message.text.toLowerCase().contains('sample add')){
+      str = session.message.text;
+  commands = str.split('add')[1];
+
+ var mongoose = require('mongoose');
+mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds032887.mlab.com:32887/bowtt_db');
+
+var db = mongoose.connection;
+db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', function() {
+  // we're connected!
+});
+
+var kittySchema = mongoose.Schema({
+    name: String
+});
+
+   var Kitten = mongoose.model('Kitten', kittySchema);
+   
+   var silence = new Kitten({ name: 'Silence' });
+session.send(silence.name); // 'Silence'
+   
+} 
    
    
    
