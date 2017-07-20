@@ -35,6 +35,47 @@ bot.on('typing', function (message) {
 bot.on('deleteUserData', function (message) {
     // User asked to delete their data
 });
+
+//=========================================================
+// data base start
+//=========================================================
+
+vvar mysql = require('mysql');
+var commands = "";
+
+var con = mysql.createConnection({
+  host: "localhost",
+  user: "root",
+  password: "1234",
+  database: "bowtt_db"
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//=========================================================
+// data base end
+//=========================================================
+
+
+
 //=========================================================
 // Bots Dialogs
 //=========================================================
@@ -451,7 +492,23 @@ else if(session.message.text.toLowerCase().contains('sad')){
     
     
    }   
+ 
    
+  else if(session.message.text.toLowerCase().contains('sample add')){
+      str = session.message.text;
+      commands = str.split('add')[1];
+     
+   con.connect(function(err) {
+  if (err) throw err;
+  
+  var sql = "INSERT INTO commands (message) VALUES (commands)";
+  con.query(sql, function (err, result) {
+    if (err) throw err;
+     session.send('%s was added.', commands);
+  });
+});
+           
+           }
    
    
    
