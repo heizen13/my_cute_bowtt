@@ -1,5 +1,14 @@
 var restify = require('restify');
 var builder = require('botbuilder');
+
+vvar mysql = require('mysql');
+  var con = mysql.createConnection({
+  host: "localhost",
+  user: "root",
+  password: "1234",
+  database: "bowtt_db"
+});
+
 //=========================================================
 // Bot Setup
 //=========================================================
@@ -453,7 +462,11 @@ else if(session.message.text.toLowerCase().contains('sad')){
     
    }   
  
-   
+else if(session.message.text.toLowerCase().contains('sample add')){
+     
+  
+
+}
 
    
    
