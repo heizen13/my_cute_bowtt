@@ -45,7 +45,10 @@ bot.dialog('/', function (session) {
    
     if(session.message.text.toLowerCase().contains('hello')){
       session.send(`Hello din sayo. hehe :$`);
-      }else if(session.message.text.toLowerCase().contains('help')){
+    else if(session.message.text.toLowerCase().contains('goodbye')){
+      session.send(`;(`);
+      }
+       else if(session.message.text.toLowerCase().contains('help')){
         session.send(`Available commands:`);
          session.send(`(1)use [skills] ex. "use splash/hyperbeam/sing"`);
         session.send(`(2)kilala mo ba si [IGN] ex. "kilala mo ba si jibanyan"`);
