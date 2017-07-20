@@ -462,21 +462,9 @@ else if(session.message.text.toLowerCase().contains('sample add')){
       
 
  var mongoose = require('mongoose');
-mongoose.connect('mongodb:/heizen13:1234@ds032887.mlab.com:32887/bowtt_db');
+mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds032887.mlab.com:32887/bowtt_db');
 
 
-
-var kittySchema = mongoose.Schema({
-    name: String
-});
-
-   var Kitten = mongoose.model('Kitten', kittySchema);
-   
-   var silence = new Kitten({ name: 'Silence' });
-session.send(silence.name); // 'Silence'
-   
-} 
-   
    
    
 //emoticons end ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
