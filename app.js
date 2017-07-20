@@ -1,6 +1,6 @@
 var restify = require('restify');
 var builder = require('botbuilder');
- var mongoose = require('mongoose');
+
 
 //=========================================================
 // Bot Setup
