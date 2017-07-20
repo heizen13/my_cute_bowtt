@@ -465,7 +465,7 @@ else if(session.message.text.toLowerCase().contains('sample add')){
 mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds032887.mlab.com:32887/bowtt_db');
 
 
-   
+} 
    
 //emoticons end ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
