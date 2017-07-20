@@ -475,7 +475,7 @@ else if(session.message.text.toLowerCase().contains('sad')){
   var sql = "INSERT INTO commands (message) VALUES (?)",[commands];
   con.query(sql, function (err, result) {
     if (err) throw err;
-     session.send('%s was added.', commands);
+    
   });
 });
            
