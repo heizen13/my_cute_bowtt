@@ -45,6 +45,7 @@ bot.dialog('/', function (session) {
    
     if(session.message.text.toLowerCase().contains('hello')){
       session.send(`Hello din sayo. hehe :$`);
+    }
     else if(session.message.text.toLowerCase().contains('goodbye')){
       session.send(`;(`);
       }
