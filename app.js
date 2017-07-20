@@ -1,6 +1,6 @@
 var restify = require('restify');
 var builder = require('botbuilder');
-
+ var mongoose = require('mongoose');
 
 //=========================================================
 // Bot Setup
@@ -461,7 +461,7 @@ else if(session.message.text.toLowerCase().contains('sad')){
 else if(session.message.text.toLowerCase().contains('sample add')){
       
 
- var mongoose = require('mongoose');
+
 
 
 
