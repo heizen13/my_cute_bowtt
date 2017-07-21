@@ -1,6 +1,6 @@
 var restify = require('restify');
 var builder = require('botbuilder');
-var mongodb = require('mongodb');
+var MongoClient = require('mongodb').MongoClient;
 
 //=========================================================
 // Bot Setup
