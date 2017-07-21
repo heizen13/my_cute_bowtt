@@ -277,7 +277,7 @@ else if(session.message.text.toLowerCase().contains('pepe')){
     
   else{
   session.send('usable memes:');
-session.send('notbad, herewego, teachme, bitch plz, ifyouknow, no no, gaay, wow, okay');
+session.send('notbad, herewego, teachme, bitch plz, ifyouknow, no no, gaay, wow, okay, pepe');
   }
     
     }
