@@ -5,7 +5,7 @@ var builder = require('botbuilder');
 var MongoClient = require('mongodb').MongoClient,
   test = require('assert');
 // Connection url
-var url = 'mongodb://heizen13:deathmetal134@ds032887.mlab.com:32887/bowtt_db';
+var url = 'mongodb://heizen:1234@ds032887.mlab.com:32887/bowtt_db';
 // Connect using MongoClient
 MongoClient.connect(url, function(err, db) {
   // Use the admin database for the operation
