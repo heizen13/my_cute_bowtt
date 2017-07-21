@@ -378,7 +378,7 @@ else if(session.message.text.toLowerCase().contains(' alone?')){
    session.send(`searching "alone"...`);
    session.send(`fetching "alone"...`);
     session.send(`(1) "alone" is found.`);
-   session.send(`Y-yeah... and that was you..`);
+   session.send(`Yeah... and that was you..`);
   }
       
       else{
