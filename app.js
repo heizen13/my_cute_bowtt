@@ -1,8 +1,25 @@
 var restify = require('restify');
 var builder = require('botbuilder');
+
+
 var MongoClient = require('mongodb').MongoClient;
 var MongoClient = mongodb.MongoClient;
 var url = 'mongodb://heizen13:deathmetal134@ds032887.mlab.com:32887/bowtt_db';  
+
+ MongoClient.connect(url, function (err, db) {
+  if (err) {
+    console.log('Unable to connect to the mongoDB server. Error:', err);
+  } else {
+    console.log('Connection established to', url);
+
+    // do some work here with the database.
+
+    //Close connection
+    db.close();
+  }
+});
+
+
 
 //=========================================================
 // Bot Setup
