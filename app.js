@@ -1,6 +1,8 @@
 var restify = require('restify');
 var builder = require('botbuilder');
 var MongoClient = require('mongodb').MongoClient;
+var MongoClient = mongodb.MongoClient;
+var url = 'mongodb://heizen13:deathmetal134@ds032887.mlab.com:32887/bowtt_db';  
 
 //=========================================================
 // Bot Setup
