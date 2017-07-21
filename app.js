@@ -2,6 +2,23 @@ var restify = require('restify');
 var builder = require('botbuilder');
 
 
+var MongoClient = require('mongodb').MongoClient,
+  test = require('assert');
+// Connection url
+var url = 'mongodb://heizen13:deathmetal134@ds032887.mlab.com:32887/bowtt_db';
+// Connect using MongoClient
+MongoClient.connect(url, function(err, db) {
+  // Use the admin database for the operation
+  var adminDb = db.admin();
+  // List all the available databases
+  adminDb.listDatabases(function(err, dbs) {
+    test.equal(null, err);
+    test.ok(dbs.databases.length > 0);
+    db.close();
+  });
+});
+
+
 //=========================================================
 // Bot Setup
 //=========================================================
