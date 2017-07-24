@@ -144,7 +144,8 @@ session.send('Hit rate was reduce by 50%.');
  }   
     
     else{
-    session.send(`di ko pa alm yan.`);
+    session.send(`Available skills:`);
+       session.send(`sing, hyperbeam, splash, sh*t, extra rice`);
     }
     }
    
