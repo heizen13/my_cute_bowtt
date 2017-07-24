@@ -299,6 +299,9 @@ else if(session.message.text.toLowerCase().contains('pepe')){
    else if(session.message.text.toLowerCase().contains('hungry')){
    session.send('https://media1.giphy.com/media/CDpAmfo9dbOyA/giphy.gif');
             } 
+       else if(session.message.text.toLowerCase().contains('scare')){
+   session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://i.imgflip.com/lexnp.jpg'}]});
+            } 
   else{
   session.send('usable memes:');
 session.send('notbad, herewego, teachme, bitch plz, ifyouknow, NO!, trap, hungry, gaay, wow, okay, pepe');
