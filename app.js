@@ -302,9 +302,14 @@ else if(session.message.text.toLowerCase().contains('pepe')){
        else if(session.message.text.toLowerCase().contains('scare')){
    session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://i.imgflip.com/lexnp.jpg'}]});
             } 
+       else if(session.message.text.toLowerCase().contains('nsfw')){
+   session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://i.ytimg.com/vi/u2K5I3NJtiQ/hqdefault.jpg'}]});
+            }
+       
+       
   else{
   session.send('usable memes:');
-session.send('notbad, herewego, teachme, bitch plz, ifyouknow, NO!, trap, hungry, gaay, wow, okay, pepe');
+session.send('notbad, herewego, teachme, bitch plz, ifyouknow, NO!, trap, hungry, gaay, wow, okay, pepe, nsfw');
   }
     
     }
