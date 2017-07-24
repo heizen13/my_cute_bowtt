@@ -305,7 +305,9 @@ else if(session.message.text.toLowerCase().contains('pepe')){
        else if(session.message.text.toLowerCase().contains('nsfw')){
    session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://i.ytimg.com/vi/u2K5I3NJtiQ/hqdefault.jpg'}]});
             }
-       
+       else if(session.message.text.toLowerCase().contains('myeyes') | session.message.text.toLowerCase().contains('my eyes')){
+   session.send('https://media2.giphy.com/media/84BjZMVEX3aRG/giphy.gif');
+            }
        
   else{
   session.send('usable memes:');
