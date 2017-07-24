@@ -156,10 +156,12 @@ session.send('Hit rate was reduce by 50%.');
 //trashtalk start  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
    
    else if(session.message.text.toLowerCase().contains('(finger)')){
-      session.send(' eto ka naman!! ╭∩╮(-_-)╭∩╮ ...dalawa pa!!! ');
+      session.send(' eto ka naman... ╭∩╮(-_-)╭∩╮ ...dalawa pa! ');
    }
     else if(session.message.text.toLowerCase().contains('stupid')){
-      session.send('retarded :P ');
+      session.send('Stupid *adjective*);
+      session.send('having or showing a great lack of intelligence or common sense.);
+      session.send("Stupid is also the person who's reading this.");
    }
    
      else if(session.message.text.toLowerCase().contains('panget ka') | session.message.text.toLowerCase().contains('panget mo')){
