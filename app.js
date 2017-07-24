@@ -160,7 +160,7 @@ session.send('Hit rate was reduce by 50%.');
    }
     else if(session.message.text.toLowerCase().contains('stupid')){
       session.send('Stupid *adjective*);
-      session.send('having or showing a great lack of intelligence or common sense.);
+      session.send('having or showing a great lack of intelligence or common sense.');
       session.send("Stupid is also the person who's reading this.");
    }
    
