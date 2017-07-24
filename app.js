@@ -273,7 +273,7 @@ else if(session.message.text.toLowerCase().contains('useless')){
 else if(session.message.text.toLowerCase().contains('ifyouknow') | session.message.text.toLowerCase().contains('if you know')){
    session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://vignette1.wikia.nocookie.net/adventuretimewithfinnandjake/images/a/aa/If-you-know-what-i-mean-420x250.png/revision/latest?cb=20130217030741'}]});
 }
-else if(session.message.text.toLowerCase().contains('no no') | session.message.text.toLowerCase().contains('if you know')){
+else if(session.message.text.toLowerCase().contains('no no') | session.message.text.toLowerCase().contains('nono')){
    session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'http://i3.kym-cdn.com/photos/images/original/000/585/635/90d.png'}]});
 } 
  else if(session.message.text.toLowerCase().contains('gaay')){
