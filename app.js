@@ -294,7 +294,7 @@ else if(session.message.text.toLowerCase().contains('pepe')){
    session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://i.imgflip.com/lntct.jpg?a416760'}]});
             }
   else if(session.message.text.toLowerCase().contains('trap')){
-   session.send({attachments: [{contenttype: 'https://s-media-cache-ak0.pinimg.com/736x/e7/21/ec/e721ecea208b384f92e2c422ac06ea5d--its-a-trap-meme-meme-center.jpg'}]});
+   session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://s-media-cache-ak0.pinimg.com/736x/e7/21/ec/e721ecea208b384f92e2c422ac06ea5d--its-a-trap-meme-meme-center.jpg'}]});
             }
     
   else{
