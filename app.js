@@ -296,10 +296,12 @@ else if(session.message.text.toLowerCase().contains('pepe')){
   else if(session.message.text.toLowerCase().contains('trap')){
    session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://s-media-cache-ak0.pinimg.com/736x/e7/21/ec/e721ecea208b384f92e2c422ac06ea5d--its-a-trap-meme-meme-center.jpg'}]});
             }
-    
+   else if(session.message.text.toLowerCase().contains('hungry')){
+   session.send('https://media1.giphy.com/media/CDpAmfo9dbOyA/giphy.gif');
+            } 
   else{
   session.send('usable memes:');
-session.send('notbad, herewego, teachme, bitch plz, ifyouknow, NO!, trap, gaay, wow, okay, pepe');
+session.send('notbad, herewego, teachme, bitch plz, ifyouknow, NO!, trap, hungry, gaay, wow, okay, pepe');
   }
     
     }
