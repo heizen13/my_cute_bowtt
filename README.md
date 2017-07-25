@@ -1,1 +1,1 @@
-# my_cute_bowtt
+Bowtt a friendly bot.
