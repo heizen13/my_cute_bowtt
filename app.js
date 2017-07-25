@@ -305,7 +305,7 @@ else if(session.message.text.toLowerCase().contains('pepe')){
        else if(session.message.text.toLowerCase().contains('scare')){
    session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://i.imgflip.com/lexnp.jpg'}]});
             } 
-       else if(session.message.text.toLowerCase().contains('nsfw')){
+       else if(session.message.text.toLowerCase().contains('nsfw') | session.message.text.toLowerCase().contains('jeff')){
    session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://i.ytimg.com/vi/u2K5I3NJtiQ/hqdefault.jpg'}]});
             }
        else if(session.message.text.toLowerCase().contains('myeyes') | session.message.text.toLowerCase().contains('my eyes')){
