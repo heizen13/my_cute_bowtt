@@ -1,6 +1,6 @@
 var restify = require('restify');
 var builder = require('botbuilder');
-var Bing = require('node-bing-api')({ accKey: "your-account-key" });
+
 
 //=========================================================
 // Bot Setup
