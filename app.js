@@ -311,10 +311,13 @@ else if(session.message.text.toLowerCase().contains('pepe')){
        else if(session.message.text.toLowerCase().contains('myeyes') | session.message.text.toLowerCase().contains('my eyes')){
    session.send('https://media2.giphy.com/media/84BjZMVEX3aRG/giphy.gif');
             }
+    else if(session.message.text.toLowerCase().contains('droll')){
+   session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://f.ptcdn.info/897/012/000/1386083652-pukingrain-o.jpg'}]});
+            }    
        
   else{
   session.send('usable memes:');
-session.send('notbad, herewego, teachme, bitch plz, ifyouknow, NO!, trap, my eyes, hungry, gaay, wow, okay, pepe, nsfw');
+session.send('notbad, herewego, teachme, bitch plz, ifyouknow, NO!, trap, droll, my eyes, hungry, gaay, wow, okay, pepe, nsfw');
   }
     
     }
@@ -539,9 +542,10 @@ else if(session.message.text.toLowerCase().contains('sad')){
 
   
   
-else if(session.message.text.toLowerCase().contains('sample add')){
-      
+else if(session.message.text.toLowerCase().contains('!play cypher')){
+session.send('Welcome to the cypher game. Here you can try to solve some challenging puzzle. Please enjoy the game. :)');
 
+session.send('Level 1');
 
 
 
