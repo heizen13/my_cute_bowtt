@@ -557,7 +557,7 @@ session.send('Level 1');
    else if(session.message.text.toLowerCase().contains('install') & session.message.text.toLowerCase().contains('--save')){
 session.send('Installing...');
 
-if(session.message.text.toLowerCase().contains('Mobile_legends')){
+if(session.message.text.toLowerCase().contains('mobile_legends') | session.message.text.toLowerCase().contains('mobile legends')){
   session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ1SWYKpVSrajMi-s_aIW6pWo_QWUCs7blHpxxI_kkWzkx--iT'}]});
   }
       const timeoutObj = setTimeout(() => {
