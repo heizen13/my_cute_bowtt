@@ -562,8 +562,6 @@ if(session.message.text.toLowerCase().contains('mobile_legends') | session.messa
   }
       const timeoutObj1 = setTimeout(() => {
   session.send('Installation failed!');
-session.send('you installed a virus instead...');
-session.send('https://media0.giphy.com/media/1pBtif4CHLGXm/giphy.gif');
 }, 5500);
 
       const timeoutObj2 = setTimeout(() => {
