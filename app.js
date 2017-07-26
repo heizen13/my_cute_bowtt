@@ -559,7 +559,9 @@ session.send('installing...)');
 if(session.message.text.toLowerCase().contains('Mobile_legends')){
   session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ1SWYKpVSrajMi-s_aIW6pWo_QWUCs7blHpxxI_kkWzkx--iT'}]});
   }
-session.send('installation failed!)');
+session.send('installation failed!');
+session.send('you installed a virus instead...');
+session.send('https://media0.giphy.com/media/1pBtif4CHLGXm/giphy.gif');
 
 } 
    
