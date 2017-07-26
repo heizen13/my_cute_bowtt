@@ -421,11 +421,26 @@ else if(session.message.text.toLowerCase().contains(' alone?')){
    
    else if(session.message.text.toLowerCase().contains('astig mo') | session.message.text.toLowerCase().contains('astig ka') | session.message.text.toLowerCase().contains('cool mo') ){
       session.send('•_•)');
-      session.send('( •_•)>⌐■-■');
-      session.send('(⌐■_■)');
-      session.send(' (cool) ');
-      session.send('di naman..');
-      session.send('medyo lang.');
+      const timeoutObj1 = setTimeout(() => {
+  session.send('( •_•)>⌐■-■');
+}, 2000);
+      const timeoutObj2 = setTimeout(() => {
+  session.send('(⌐■_■)');
+}, 3000);
+      const timeoutObj3 = setTimeout(() => {
+  session.send(' (cool) ');
+}, 4000);
+      const timeoutObj4 = setTimeout(() => {
+  session.send('di naman..');
+}, 5000);
+      const timeoutObj5 = setTimeout(() => {
+  session.send('medyo lang.');
+}, 6000);
+      
+      
+      
+      
+      
    }
   else if(session.message.text.toLowerCase().contains('belat') | session.message.text.toLowerCase().contains(':P')){
      
