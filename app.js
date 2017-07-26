@@ -560,13 +560,13 @@ session.send('Installing...');
 if(session.message.text.toLowerCase().contains('mobile_legends') | session.message.text.toLowerCase().contains('mobile legends')){
   session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ1SWYKpVSrajMi-s_aIW6pWo_QWUCs7blHpxxI_kkWzkx--iT'}]});
   }
-      const timeoutObj = setTimeout(() => {
+      const timeoutObj1 = setTimeout(() => {
   session.send('Installation failed!');
 session.send('you installed a virus instead...');
 session.send('https://media0.giphy.com/media/1pBtif4CHLGXm/giphy.gif');
 }, 5500);
 
-      const timeoutObj = setTimeout(() => {
+      const timeoutObj2 = setTimeout(() => {
 session.send('you installed a virus instead...');
 session.send('https://media0.giphy.com/media/1pBtif4CHLGXm/giphy.gif');
 }, 2500);
