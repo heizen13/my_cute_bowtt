@@ -59,7 +59,7 @@ bot.dialog('/', function (session) {
         session.send(`(3)meme [meme_code] ex. "meme notbad"`);
          session.send(`(4)!play [title] ex. "!play almuranas"`);
          session.send(`(5)show face [expression] ex. "show face love"`);
-          session.send(`(5)what is [keyword]? ex. "what is love?"`);
+          session.send(`(6)what is [keyword]? ex. "what is love?"`);
 session.send(`*****************************`);         
 session.send(`Others: `);
          session.send(`yakult, astig mo, useless, kuya jobert, pokemon, pikachu"`);
