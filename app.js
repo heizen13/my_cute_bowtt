@@ -567,7 +567,7 @@ if(session.message.text.toLowerCase().contains('mobile_legends') | session.messa
       const timeoutObj2 = setTimeout(() => {
 session.send('you installed a virus instead...');
 session.send('https://media0.giphy.com/media/1pBtif4CHLGXm/giphy.gif');
-}, 2500);
+}, 7500);
 
 
 } 
