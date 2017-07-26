@@ -315,10 +315,13 @@ else if(session.message.text.toLowerCase().contains('pepe')){
     else if(session.message.text.toLowerCase().contains('droll')){
    session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://f.ptcdn.info/897/012/000/1386083652-pukingrain-o.jpg'}]});
             }    
+       else if(session.message.text.toLowerCase().contains('genius')){
+   session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://vignette1.wikia.nocookie.net/meme/images/8/81/Genius-meme.png/revision/latest?cb=20140626182735'}]});
+            } 
        
   else{
   session.send('usable memes:');
-session.send('notbad, herewego, teachme, bitch plz, ifyouknow, NO!, trap, droll, my eyes, hungry, gaay, wow, okay, pepe, nsfw');
+session.send('notbad, herewego, teachme, bitch plz, ifyouknow, NO!, genius, trap, droll, my eyes, hungry, gaay, wow, okay, pepe, nsfw');
   }
     
     }
