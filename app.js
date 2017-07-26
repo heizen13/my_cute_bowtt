@@ -545,14 +545,27 @@ session.send('Welcome to the cypher game. Here you can try to solve some challen
 
 session.send('Level 1');
 
-
-
-
 } 
    
 //emoticons end ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
 
+   
+   //install start ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+
+   else if(session.message.text.toLowerCase().contains('install') & session.message.text.toLowerCase().contains('--save')){
+session.send('installing...)');
+if(session.message.text.toLowerCase().contains('Mobile_legends')){
+  session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ1SWYKpVSrajMi-s_aIW6pWo_QWUCs7blHpxxI_kkWzkx--iT'}]});
+  }
+session.send('installation failed!)');
+
+} 
+   
+     //install end ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
+ 
    
    else{
         session.send("Hi " + session.message.user.name + "! Try to use the 'help' command");
