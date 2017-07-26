@@ -564,7 +564,7 @@ if(session.message.text.toLowerCase().contains('Mobile_legends')){
   session.send('Installation failed!');
 session.send('you installed a virus instead...');
 session.send('https://media0.giphy.com/media/1pBtif4CHLGXm/giphy.gif');
-}, 2500);
+}, 5500);
 
 
 } 
