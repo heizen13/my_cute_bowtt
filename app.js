@@ -157,7 +157,7 @@ session.send('Hit rate was reduce by 50%.');
 //trashtalk start  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
    
    else if(session.message.text.toLowerCase().contains('(finger)')){
-      session.send(' eto ka naman... ╭∩╮(-_-)╭∩╮ ...dalawa pa! ');
+      session.send(' eto oh! ╭∩╮(-_-)╭∩╮ ..Sambahin mo! );
    }
     else if(session.message.text.toLowerCase().contains('stupid')){
       session.send('Stupid *adjective*');
