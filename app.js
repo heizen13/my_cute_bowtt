@@ -558,7 +558,7 @@ else if(session.message.text.toLowerCase().contains('sad')){
 else if(session.message.text.toLowerCase().contains('!play cypher')){
 session.send('Welcome to the cypher game. Here you can try to solve some challenging puzzle. Please enjoy the game. :)');
 
-session.send('Level 1');
+session.send('https://cypher-game.herokuapp.com/');
 
 } 
    
