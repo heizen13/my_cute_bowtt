@@ -354,6 +354,14 @@ session.send('notbad, herewego, teachme, bitch plz, ifyouknow, NO!, genius, trap
           session.send('https://www.youtube.com/watch?v=yhtqG8ILWQc');
   
    }
+    
+    else if(session.message.text.toLowerCase().contains('!play cypher')){
+session.send('Welcome to the cypher game. Here you can try to solve some challenging puzzle. Please enjoy the game. :)');
+
+session.send('https://cypher-game.herokuapp.com/');
+
+} 
+    
     else {
        session.send(`Available classic Kuya Jobert..`);
        session.send(`utot, champorado, almuranas`);
@@ -555,12 +563,7 @@ else if(session.message.text.toLowerCase().contains('sad')){
 
   
   
-else if(session.message.text.toLowerCase().contains('!play cypher')){
-session.send('Welcome to the cypher game. Here you can try to solve some challenging puzzle. Please enjoy the game. :)');
 
-session.send('https://cypher-game.herokuapp.com/');
-
-} 
    
 //emoticons end ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
