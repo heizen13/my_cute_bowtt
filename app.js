@@ -317,11 +317,20 @@ else if(session.message.text.toLowerCase().contains('pepe')){
             }    
        else if(session.message.text.toLowerCase().contains('genius')){
    session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://vignette1.wikia.nocookie.net/meme/images/8/81/Genius-meme.png/revision/latest?cb=20140626182735'}]});
+            }
+else if(session.message.text.toLowerCase().contains('yeah')){
+   session.send('https://media4.giphy.com/media/SDogLD4FOZMM8/giphy.gif');
             } 
+       else if(session.message.text.toLowerCase().contains('shock')){
+   session.send('https://media4.giphy.com/media/S3Ot3hZ5bcy8o/giphy.gif');
+            }
+       else if(session.message.text.toLowerCase().contains('cat') | session.message.text.toLowerCase().contains('programmer')){
+   session.send('https://media0.giphy.com/media/o0vwzuFwCGAFO/giphy.gif');
+            }
        
   else{
   session.send('usable memes:');
-session.send('notbad, herewego, teachme, bitch plz, ifyouknow, NO!, genius, trap, droll, my eyes, hungry, gaay, wow, okay, pepe, nsfw');
+session.send('notbad, herewego, teachme, bitch plz, shock, yeah, ifyouknow, NO!, genius, trap, droll, my eyes, hungry, gaay, wow, okay, pepe, nsfw, cat');
   }
     
     }
