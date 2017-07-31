@@ -325,7 +325,9 @@ else if(session.message.text.toLowerCase().contains('yeah')){
    session.send('https://media4.giphy.com/media/S3Ot3hZ5bcy8o/giphy.gif');
             }
        else if(session.message.text.toLowerCase().contains('cat') | session.message.text.toLowerCase().contains('programmer')){
-   session.send('https://media0.giphy.com/media/o0vwzuFwCGAFO/giphy.gif');
+session.send('Programming really looks like.');
+session.send('https://media0.giphy.com/media/o0vwzuFwCGAFO/giphy.gif');
+session.send('https://media1.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif');
             }
        
   else{
