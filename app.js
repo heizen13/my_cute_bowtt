@@ -142,10 +142,9 @@ session.send('Hit rate was reduce by 50%.');
       }
     
  else if(session.message.text.toLowerCase().contains('extra rice')){
-   session.send(`Bowtt used Extra Rice to the ememy! 🍚`);
-    session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAFoAWgMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABwIEBQYIAwH/xAA0EAABAwMBBQYEBgMBAAAAAAABAAIDBAURIQYHEjFBIkJRYXGBUqGx0RMUI2KRwTSSwjP/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAYEQEBAQEBAAAAAAAAAAAAAAAAEQESAv/aAAwDAQACEQMRAD8Ag1ERAREQEREBERAREQEREBERAXpBDLUTMhgjfLLI4NYxjS5zieQAHMq92fslftDdYLba4fxamY4A5Bo6ucegHiupNjNg7FsdA00NMJq7B462YcUhz0B7o6YGM9coISse5bau5ASVkdPbIjgj8zIC8gj4W5x6HBWxxbgJeD9faWNj88mURcMevGPopufIc4wqTnq3RZqxz9dtxd/pW8Vsr6Ku55YSYXc9MZyOXmFH192cvGz07Ybzb56Rz88BkHZfjnwuGh9iuwQANNfcrH3i3UV5t89FcYGVFNK0tdG4fTqD5jUK0jjlFte3mxVbspcntDJZra45gqi3p8LscnDl0zzC1RVBERAUlbu92b75DHdL2ZKe3u7UULdHzjx/a35npjQrU9hbVFe9rLbb5xmKSUuePia1pcR7huF1IxnC0AAAAYAA5IPuzNroLPSup7ZSQ0sDQAGRNxnzJ5k+Z1WTfNqQcD2WPgqD+WnHRpGMDU5z9lZzXNhIHeA0Dnclndaxmg9pzqD6eC+vOudR5BYKOvw4HwbgYOV7tri7BLiD0ypVjK8WBgH35q3nlDQWjGP7Vp+becjHI4C8nSuwDjn4JUUTSfrNa8Nc1/Yc0jIIPiFH2226m3XON9Vs8xlBWjX8AaQy+WO4fMaeXVbtVkuacHB8fosnH24wTzWjXIlZSz0NVLS1cT4p4nFkkbxgtIXipd392WGGW33mJgbLMTBOR38DLT64yPYKIlWWZ2OvAsO01vub25ZBL28fAQWu+RK6to5oayliqKZ7JIZWhzHsOQ4HkQuOVve77eRXbJkUdQx1ZaycmHOHRHOpYf6Onpqg6JkjERflp4JBguBxwrX6ineHccbuLwcr/Zva6xbSxB1qr45JMZdA/syN9WnX3GiydTQRzNyz9N45EJzStdije3QZJHLP3V3EHZ4sa9V7Oo6qNx4ow9vThVHDIAewWu82qctVW0OySTw+Guq9Q0nU/wAKmMSOH/m5x6aFXcNJI/WU8GO6080zyzVuynMzwANAdTlZBsQY3AAXjXV1vs9IZ6+qgpKdvfleGj5qI9ud8cb4pKLZMPy4YdXyN4cD9jTr7n+FqQY3fztDBW3KkslK8OFFmSoLeX4h0DfUDP8At5KKFVI98j3Pkc573ElznHJJPUlUqAiIgqY5zHB7HFrmnIIOCCtotO8Xay1BrKe8TyRt7lQBKD5ZcCfmtVRBKVJvv2gj/wAqit8+OrWuYfqVft37VeO1YacnyqSP+VDyIJZqd+d2e3FLaKKI+L3uf9lr9z3s7X144W18dI3GopoWtz7nJ+a0ZEoua6vrLjMZ6+qnqZT35pC8/wAlWyIgIiICIiAiIgIiICIiAiIgIiIP/9k='}]});
-      
-      session.send('The enemies are gaining weight...');
+   session.send(`Bowtt eats Extra rice 🍚`);
+    session.send('https://media2.giphy.com/media/HLpHTq5EmQinC/giphy.gif');
+   session.send('Bowtt gains weight');
       session.send('Speed was reduce by 50%.');   
  }   
     
