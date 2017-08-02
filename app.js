@@ -254,7 +254,7 @@ else if(session.message.text.toLowerCase().contains('useless')){
        
 //meme start ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++    
    
-    else if(session.message.text.toLowerCase().contains('meme')){
+    else if(session.message.text.toLowerCase().contains('meme') | session.message.text.toLowerCase().contains('gif')){
        
   if(session.message.text.toLowerCase().contains('notbad')){
    session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'http://i3.kym-cdn.com/photos/images/original/000/138/246/tumblr_lltzgnHi5F1qzib3wo1_400.jpg'}]});
@@ -295,7 +295,7 @@ else if(session.message.text.toLowerCase().contains('pepe')){
    session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://i.imgflip.com/lntct.jpg?a416760'}]});
             }
   else if(session.message.text.toLowerCase().contains('trap')){
-   session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://s-media-cache-ak0.pinimg.com/736x/e7/21/ec/e721ecea208b384f92e2c422ac06ea5d--its-a-trap-meme-meme-center.jpg'}]});
+   session.send('https://media1.giphy.com/media/3ornka9rAaKRA2Rkac/giphy.gif');
             }
    else if(session.message.text.toLowerCase().contains('hungry')){
    session.send('https://media1.giphy.com/media/CDpAmfo9dbOyA/giphy.gif');
