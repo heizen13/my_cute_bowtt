@@ -123,7 +123,7 @@ else if(session.message.text.toLowerCase().contains('use splash')){
 else if(session.message.text.toLowerCase().contains('hydropump')){
    session.send(`Bowtt used Hydropump! 💨`); 
       session.send(`'https://media0.giphy.com/media/GxuQzDI8KNImA/giphy.gif`);
-      session.send('💤 The enemies falls asleep..💤');
+      session.send('CRITICAL HIT!!!');
       }
    else if(session.message.text.toLowerCase().contains('sing') | session.message.text.toLowerCase().contains('kanta')){
    session.send(`Bowtt used Sing! 🎵`); 
@@ -151,7 +151,7 @@ session.send('Hit rate was reduce by 50%.');
     
     else{
     session.send(`Available skills:`);
-       session.send(`sing, hyperbeam, splash, sh*t, extra rice`);
+       session.send(`sing, hyperbeam, hydropump, splash, sh*t, extra rice`);
     }
     }
    
