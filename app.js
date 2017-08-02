@@ -110,21 +110,26 @@ else if(session.message.text.toLowerCase().contains('meron ka')){
     if(session.message.text.toLowerCase().contains('use hyperbeam')){
       session.send(`Bowtt used hyperbeam! 🎇`);
       session.send(`KAME-HAME-HAAAAAAAAAAAAAAAAA`); 
-      session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://static1.bigstockphoto.com/4/2/6/small2/6247476.jpg'}]});
+      session.send('https://media1.giphy.com/media/DGdHKVsPQZoty/giphy.gif');
       session.send(`The enemies are blinded..`); 
       session.send(`Hit rate was reduce by 100%.`); 
     }
 else if(session.message.text.toLowerCase().contains('use splash')){
       session.send(`Bowtt used splash! 💦`); 
-      session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://s-media-cache-ak0.pinimg.com/236x/91/1d/5b/911d5b2c5d919dda6e2d371276e97650.jpg'}]});
+      session.send('https://media0.giphy.com/media/5nZ8CewNgpHGg/giphy.gif');
       session.send(`......instantly killed enemies nearby.`); 
 }
 
-else if(session.message.text.toLowerCase().contains('sing') | session.message.text.toLowerCase().contains('kanta')){
-   session.send(`Bowtt used Sing! 🎵`); 
-      session.send(`🎶 Beep beep beep.. ang sabi ng jeep.. beep beep beep beep bee-beep beep!!! 🎶`);
+else if(session.message.text.toLowerCase().contains('hydropump')){
+   session.send(`Bowtt used Hydropump! 💨`); 
+      session.send(`'https://media0.giphy.com/media/GxuQzDI8KNImA/giphy.gif`);
       session.send('💤 The enemies falls asleep..💤');
-
+      }
+   else if(session.message.text.toLowerCase().contains('sing') | session.message.text.toLowerCase().contains('kanta')){
+   session.send(`Bowtt used Sing! 🎵`); 
+      session.send(`https://media0.giphy.com/media/l0He0B1237tKb5fWM/giphy.gif`);
+      session.send('💢 The enemies got angry! 💢');
+      session.send('Rage raise to 500%.');
       }
     
     else if(session.message.text.toLowerCase().contains('shit') | session.message.text.toLowerCase().contains('sh*t')){
