@@ -182,14 +182,7 @@ else if(session.message.text.toLowerCase().contains('angas') | session.message.t
    }
    
    else if(session.message.text.toLowerCase().contains('pogi ba')){
-      if(session.message.text.toLowerCase().contains('jibanyan') | session.message.text.toLowerCase().contains('james')){
-      session.send(` Mabait.. :D `);
-      }
-      else{
-         
        session.send(` (puke) `);
-      
-      }
    }
 
 else if(session.message.text.toLowerCase().contains('bad ka') | session.message.text.toLowerCase().contains('bad mo')){
