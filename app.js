@@ -47,8 +47,8 @@ String.prototype.contains = function(content){
 bot.dialog('/', function (session) {
    
     if(session.message.text.toLowerCase().contains('hello')){
-   session.send(`HI... :$ `);
-   session.send(`https://media0.giphy.com/media/h55EUEsTG9224/giphy.gif`);
+   session.send('HI... :$ ');
+   session.send('https://media0.giphy.com/media/h55EUEsTG9224/giphy.gif');
        
     }
     else if(session.message.text.toLowerCase().contains('goodbye')){
