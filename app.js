@@ -63,7 +63,7 @@ bot.dialog('/', function (session) {
           session.send(`(6)what is [keyword]? ex. "what is love?"`);
 session.send(`*****************************`);         
 session.send(`Others: `);
-         session.send(`yakult, astig mo, useless, kuya jobert, pokemon, pikachu"`);
+         session.send(`yakult, astig mo, useless, kuya jobert, pokemon, pikachu, my secret"`);
          
          
           }
@@ -605,6 +605,17 @@ session.send('https://media0.giphy.com/media/1pBtif4CHLGXm/giphy.gif');
 else if(session.message.text.toLowerCase().contains('abort')){
 session.send(' (evilgrin) ');
 }
+   else if(session.message.text.toLowerCase().contains('my secret')){
+      var random = Math.random() * (2 - 1) + 1;
+if(random==1){
+session.send(session.message.user.name + ' is always sitting in the corner of the dark room, rubbing something with his hand... maniacally.
+');
+}
+else{
+session.send(session.message.user.name + ' is always eating pees and shits every morning.');
+             }
+}
+
    
      //install end ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
