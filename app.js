@@ -606,11 +606,11 @@ else if(session.message.text.toLowerCase().contains('abort')){
 session.send(' (evilgrin) ');
 }
    else if(session.message.text.toLowerCase().contains('my secret')){
-      
-     var min = Math.ceil(1);
-  var max = Math.floor(2);
-  var random Math.floor(Math.random() * (max - min + 1)) + min;
-if(random==1){
+   myFunction();
+      function myFunction() {
+    var random = Math.floor((Math.random() * 2) + 1);
+   
+         if(random==1){
 session.send(session.message.user.name + ' is always sitting in the corner of the dark room, rubbing something with his hand... maniacally.');
 }
 else if(random==2){
@@ -619,6 +619,10 @@ session.send(session.message.user.name + ' is always eating pees and shits every
       else{
       session.send('doesnt work');
       }
+            
+}
+         
+
 }
 
    
