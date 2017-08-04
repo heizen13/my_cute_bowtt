@@ -489,6 +489,23 @@ if(session.message.text.toLowerCase().contains('jibanya') | session.message.text
          session.send('hehe, parehas silang mahina! :D');
       }
    }
+
+else if(session.message.text.toLowerCase().contains('my secret')){
+myFunction();
+   function myFunction() {
+   var random = Math.floor((Math.random() * 3) + 1);
+   
+     if(random==1){
+session.send(session.message.user.name + ' is always sitting in the corner of the dark room, rubbing something with his hand... MANIACALLY.');
+      }
+     else if(random==2){
+session.send(session.message.user.name + ' is always eating pees and shits every morning.');
+      }
+     else if(random==3){
+session.send(session.message.user.name + "'s has a small bick. :D");
+     }           
+   }
+}
 //others end ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
    
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
@@ -569,11 +586,7 @@ else if(session.message.text.toLowerCase().contains('sad')){
     
     
    }   
-
   
-  
-
-   
 //emoticons end ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
 
@@ -604,28 +617,7 @@ session.send('https://media0.giphy.com/media/1pBtif4CHLGXm/giphy.gif');
 } 
 else if(session.message.text.toLowerCase().contains('abort')){
 session.send(' (evilgrin) ');
-}
-   else if(session.message.text.toLowerCase().contains('my secret')){
-   myFunction();
-      function myFunction() {
-    var random = Math.floor((Math.random() * 2) + 1);
-   
-         if(random==1){
-session.send(session.message.user.name + ' is always sitting in the corner of the dark room, rubbing something with his hand... maniacally.');
-}
-else if(random==2){
-session.send(session.message.user.name + ' is always eating pees and shits every morning.');
-             }
-      else{
-      session.send('doesnt work');
-      }
-            
-}
-         
-
-}
-
-   
+}   
      //install end ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
  
