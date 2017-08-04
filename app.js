@@ -608,8 +608,7 @@ session.send(' (evilgrin) ');
    else if(session.message.text.toLowerCase().contains('my secret')){
       var random = Math.random() * (2 - 1) + 1;
 if(random==1){
-session.send(session.message.user.name + ' is always sitting in the corner of the dark room, rubbing something with his hand... maniacally.
-');
+session.send(session.message.user.name + ' is always sitting in the corner of the dark room, rubbing something with his hand... maniacally.');
 }
 else{
 session.send(session.message.user.name + ' is always eating pees and shits every morning.');
