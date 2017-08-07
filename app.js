@@ -94,7 +94,7 @@ else if(session.message.text.toLowerCase().contains('meron ka')){
       }
    
    else if(session.message.text.toLowerCase().contains('morning') | session.message.text.toLowerCase().contains('ohayo') | session.message.text.toLowerCase().contains('umaga')){
-      session.send(`Ohayo Gozaimasu! Bruh-sama~!`);
+      session.send(`Ohayo Gozaimasu! Kumagu-san`);
       }
    
     else if(session.message.text.toLowerCase().contains('pokemon') | session.message.text.toLowerCase().contains('digimon')){
