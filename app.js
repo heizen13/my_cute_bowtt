@@ -618,10 +618,9 @@ session.send('https://media0.giphy.com/media/1pBtif4CHLGXm/giphy.gif');
 else if(session.message.text.toLowerCase().contains('abort')){
 session.send(' (evilgrin) ');
 }   
-     //install end ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//install end ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ 
  
-   
    else{
         session.send("Hi " + session.message.user.name + "! Try to use the 'help' command");
       }
