@@ -330,7 +330,7 @@ session.send('https://media1.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif');
             }
   else{
   session.send('usable memes:');
-session.send('notbad, herewego, teachme, bitch plz, shock, yeah, ifyouknow, NO!, genius, trap, droll, my eyes, hungry, gaay, wow, okay, pepe, nsfw, cat');
+session.send('notbad, herewego, teachme, bitch plz, shock, yeah, ifyouknow, nono, genius, trap, droll, my eyes, hungry, gaay, wow, okay, pepe, nsfw, cat');
   }
     
     }
