@@ -407,7 +407,7 @@ function getUser(value){
         session.send(session.message.user.name + ' is always eating pees and shits every morning.');
       }
       else if(random==3){
-        session.send(session.message.user.name + "'s has a small bick. :D");
+        session.send(session.message.user.name + " has a small bick. :D");
       }
     }
   }
