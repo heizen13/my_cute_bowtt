@@ -48,12 +48,11 @@ bot.dialog('/', function (session) {
 var msgValue = session.message.text.toLowerCase();
 var userValue = session.message.user.name;
 function getMessage(value){
-return value;
+  return value;
 }
 function getUser(value){
-return value;
+  return value;
 }
-
   if(getMessage(msgValue).contains('hello')){
     session.send('HI... :$ ');
     session.send('https://media0.giphy.com/media/h55EUEsTG9224/giphy.gif');
@@ -79,12 +78,12 @@ return value;
   else if(getMessage(msgValue).contains('delinquent')){
     session.send(`Timesheet-timesheet din kasi pag may time!!! (cwl) `);
   }
-  else if(getMessage(msgValue).contains('uwi')){
+  else if(getMessage(msgValue).contains('uwian') || getMessage(msgValue).contains('tara uwi')){
     session.send(`Edi umuwi ka! Yan lang naman habol mo bago ka pumasok. Gusto mo na agad umuwi!!! |-( `);
   }
   else if(getMessage(msgValue).contains('kanteen') || getMessage(msgValue).contains('canteen') || getMessage(msgValue).contains('kain')){
     session.send(`LEGO~! BETCH!! (cool) `);
-        }
+  }
   else if(getMessage(msgValue).contains('suplado mo') || getMessage(msgValue).contains('galit ka')){
     session.send(` (donttalk) `);
   }
@@ -109,7 +108,7 @@ return value;
       session.send('https://media1.giphy.com/media/DGdHKVsPQZoty/giphy.gif');
       session.send(`The enemies are blinded..`);
       session.send(`Hit rate was reduce by 100%.`);
-  }
+    }
     else if(getMessage(msgValue).contains('use splash')){
       session.send(`Bowtt used splash! 💦`);
       session.send('https://media0.giphy.com/media/5nZ8CewNgpHGg/giphy.gif');
@@ -125,7 +124,7 @@ return value;
       session.send(`https://media0.giphy.com/media/l0He0B1237tKb5fWM/giphy.gif`);
       session.send('💢 The enemies got angry! 💢');
       session.send('Rage raise to 500%.');
-          }
+    }
     else if(getMessage(msgValue).contains('shit') || getMessage(msgValue).contains('sh*t')){
       session.send(`Bowtt throws some sh*t! 💩`);
       session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://cdn.xl.thumbs.canstockphoto.com/canstock8753620.jpg'}]});
@@ -185,9 +184,6 @@ return value;
     }
     else if(getMessage(msgValue).contains('kida') || getMessage(msgValue).contains('kidda')){
       session.send('Kida? ADIK din yan eh.. Ang lakas din nyan!! Sobra!! Sila ni Master Jibanyan mga ininidolo kong p*kemon Mastur!!.');
-    }
-    else if(getMessage(msgValue).contains('asdasdasdas')){
-      session.send('Oo naman, siya yung cute na at matalino pa. :D');
     }
    //burnin tropa start ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
     else if(getMessage(msgValue).contains('shino') || getMessage(msgValue).contains('bhen')){
