@@ -307,7 +307,7 @@ function getUser(value){
         session.send('https://www.youtube.com/watch?v=yhtqG8ILWQc');
   }
     else if(getMessage(msgValue).contains('!play cypher')){
-      session.send('Welcome to the cypher game. Here you can try to solve some challenging puzzle. Please enjoy the game. :)');
+      session.send('Welcome to the cypher game. Here you can try to solve some challenging puzzles. Please enjoy the game. :)');
       session.send('https://cypher-game.herokuapp.com/');
     }
     else {
