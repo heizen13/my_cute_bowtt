@@ -116,7 +116,7 @@ function getUser(value){
     }
     else if(getMessage(msgValue).contains('hydropump')){
       session.send(`Bowtt used Hydropump! 💨`);
-      session.send(`'https://media0.giphy.com/media/GxuQzDI8KNImA/giphy.gif`);
+      session.send(`https://media0.giphy.com/media/GxuQzDI8KNImA/giphy.gif`);
       session.send('CRITICAL HIT!!!');
     }
     else if(getMessage(msgValue).contains('sing') || getMessage(msgValue).contains('kanta')){
