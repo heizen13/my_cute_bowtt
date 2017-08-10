@@ -474,7 +474,7 @@ function getUser(value){
    else if(getMessage(msgValue).contains('install') & getMessage(msgValue).contains('--save')){
       session.send('Installing...');
       const timeoutObj3 = setTimeout(() => {
-         session.send('[===========69.0%============]');
+         session.send('[========69.0%=========]');
       }, 2000);
       const timeoutObj1 = setTimeout(() => {
         session.send('Installation failed!');
