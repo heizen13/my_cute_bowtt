@@ -471,12 +471,10 @@ function getUser(value){
   //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
   //install start ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-  else if(getMessage(msgValue).contains('install') & getMessage(msgValue).contains('--save')){
-    session.send('Installing...');
-    if(getMessage(msgValue).contains('mobile_legends') || getMessage(msgValue).contains('mobile legends')){
-      session.send({attachments: [{contenttype: 'image/jpg', contenturl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQ1SWYKpVSrajMi-s_aIW6pWo_QWUCs7blHpxxI_kkWzkx--iT'}]});
+   else if(getMessage(msgValue).contains('install') & getMessage(msgValue).contains('--save')){
+      session.send('Installing...');
       const timeoutObj3 = setTimeout(() => {
-        session.send('.........');
+         session.send('.........');
       }, 2000);
       const timeoutObj1 = setTimeout(() => {
         session.send('Installation failed!');
@@ -485,10 +483,9 @@ function getUser(value){
         session.send('you download a virus instead...');
         session.send('https://media0.giphy.com/media/1pBtif4CHLGXm/giphy.gif');
       }, 9500);
-    }
-  }
-  else if(getMessage(msgValue).contains('abort')){
-    session.send(' (evilgrin) ');
+   }
+   else if(getMessage(msgValue).contains('abort')){
+   session.send(' I wont!!! (evilgrin) ');
   }
   //install end ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   //@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
