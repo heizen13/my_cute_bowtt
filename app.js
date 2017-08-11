@@ -61,7 +61,7 @@ function getUser(value){
     session.send(`;(`);
   }
   else if(getMessage(msgValue).contains('help')){
-    session.send(`Available commands:`);
+    session.send(`@@ Available commands: @@`);
     session.send(`(1)use [skills] ex. "use splash/hyperbeam/sing"`);
     session.send(`(2)kilala mo ba si [IGN] ex. "kilala mo ba si jibanyan"`);
     session.send(`(3)meme [meme_code] ex. "meme notbad"`);
