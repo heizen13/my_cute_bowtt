@@ -441,9 +441,6 @@ function getUser(value){
     if(getMessage(msgValue).contains('angry')){
       session.send('(ノಠ益ಠ)ノ彡┻━┻');
     }
-    else if(getMessage(msgValue).contains('angry 2') || getMessage(msgValue).contains('angry2')){
-      session.send('ლ(ಠ益ಠლ)');
-    }
     else if(getMessage(msgValue).contains('sad')){
       session.send('(ಥ﹏ಥ)');
     }
