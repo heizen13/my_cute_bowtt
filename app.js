@@ -281,6 +281,9 @@ function getUser(value){
     else if(getMessage(msgValue).contains('rick roll') || getMessage(msgValue).contains('rickroll')){
       session.send('https://media2.giphy.com/media/lgcUUCXgC8mEo/giphy.gif');
     }
+   else if(getMessage(msgValue).contains('wut?') || getMessage(msgValue).contains('wat?')){
+      session.send('https://media.giphy.com/media/WGpqvAMu9Ks4U/giphy.gif');
+    }
     else{
       session.send('usable memes:');
       session.send('notbad, herewego, teachme, bitch plz, rick roll, shock, yeah, ifyouknow, nono, genius, trap, droll, my eyes, hungry, gaay, wow, okay, pepe, nsfw, cat');
