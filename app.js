@@ -54,7 +54,7 @@ function getUser(value){
   return value;
 }
   if(getMessage(msgValue).contains('hello')){
-    session.send('HI.'+name+'.. :$ ');
+    session.send('HI... :$ ');
     session.send('https://media0.giphy.com/media/h55EUEsTG9224/giphy.gif');
   }
   else if(getMessage(msgValue).contains('goodbye')){
