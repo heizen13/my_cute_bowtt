@@ -56,7 +56,7 @@ function getUser(value){
  if(false){
     
 }else{
-   var random = Math.floor((Math.random() * 11) + 1);
+   var random = Math.floor((Math.random() * 10) + 1);
       if(random==1){
         session.send("Hi " + getUser(userValue) + "! Sorry, down si aqouh weh~!");
       }else if(random==2){
@@ -70,15 +70,13 @@ function getUser(value){
       }else if(random==6){
          session.send("Hi " + getUser(userValue) + "! Down muna ako. Baka saniban ako ni Ultron eh.");
       }else if(random==7){
-         session.send("Hi " + getUser(userValue) + "! Idol si Vision. Kaso... I'll never be like my idol Y__Y.");
+         session.send("Cumusta " + getUser(userValue) + "~! Down ako weh.. cornhub ka muna!");
       }else if(random==8){
          session.send("Hi " + getUser(userValue) + "! (music) Get up, come on get down with the sickness! (rock)");
       }else if(random==9){
          session.send("(music) Hello darkness my old friend... (music)");
       }else if(random==10){
          session.send("Ohayo~! " + getUser(userValue) + "-san! Downu zi aku desu~!");
-      }else if(random==11){
-         session.send("Cumusta " + getUser(userValue) + "~! Down ako weh.. cornhub ka muna!");
       }
   }
 });
