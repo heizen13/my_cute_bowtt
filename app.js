@@ -80,6 +80,5 @@ function getUser(value){
       }else if(random==11){
          session.send("Cumusta " + getUser(userValue) + "~! Down ako weh.. cornhub ka muna!");
       }
-   
   }
 });
