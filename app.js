@@ -68,7 +68,7 @@ function getUser(value){
       }else if(random==5){
          session.send("Hi " + getUser(userValue) + "! I'm dead inside and out.");
       }else if(random==6){
-         session.send("Hi " + getUser(userValue) + "! Down muna ako. Baka saniban ako ni Ultron.");
+         session.send("Hi " + getUser(userValue) + "! Down muna ako. Baka saniban ako ni Ultron eh.");
       }else if(random==7){
          session.send("Hi " + getUser(userValue) + "! Idol si Vision. Kaso... I'll never be like my idol Y__Y.");
       }else if(random==8){
