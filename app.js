@@ -56,7 +56,7 @@ function getUser(value){
  if(false){
     
 }else{
-   var random = Math.floor((Math.random() * 3) + 1);
+   var random = Math.floor((Math.random() * 11) + 1);
       if(random==1){
         session.send("Hi " + getUser(userValue) + "! Sorry, down si aqouh weh~!");
       }else if(random==2){
