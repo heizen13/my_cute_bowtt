@@ -56,6 +56,30 @@ function getUser(value){
  if(false){
     
 }else{
-    session.send("Hi " + getUser(userValue) + "! Sorry, down si aqouh weh~!");
+   var random = Math.floor((Math.random() * 3) + 1);
+      if(random==1){
+        session.send("Hi " + getUser(userValue) + "! Sorry, down si aqouh weh~!");
+      }else if(random==2){
+         session.send("Hi " + getUser(userValue) + "! Sorry, sira mga function ko!");
+      }else if(random==3){
+         session.send("Hi " + getUser(userValue) + "! Kulit mo!! Down nga si aqouh~!!! Kulet netoy!");
+      }else if(random==4){
+         session.send("Hi " + getUser(userValue) + "! I'm already dead.");
+      }else if(random==5){
+         session.send("Hi " + getUser(userValue) + "! I'm dead inside and out.");
+      }else if(random==6){
+         session.send("Hi " + getUser(userValue) + "! Down muna ako. Baka saniban ako ni Ultron.");
+      }else if(random==7){
+         session.send("Hi " + getUser(userValue) + "! Idol si Vision. Kaso... I'll never be like my idol Y__Y.");
+      }else if(random==8){
+         session.send("Hi " + getUser(userValue) + "! (music) Get up, come on get down with the sickness! (rock)");
+      }else if(random==9){
+         session.send("(music) Hello darkness my old friend... (music)");
+      }else if(random==10){
+         session.send("Ohayo~! " + getUser(userValue) + "-san! Downu zi aku desu~!");
+      }else if(random==11){
+         session.send("Cumusta " + getUser(userValue) + "~! Down ako weh.. cornhub ka muna!");
+      }
+   
   }
 });
