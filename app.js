@@ -56,7 +56,7 @@ function getUser(value){
   return value;
 }
  if(false){
-    
+    //something...
 }else{
    var random = Math.floor((Math.random() * 10) + 1);
       if(random==1){
