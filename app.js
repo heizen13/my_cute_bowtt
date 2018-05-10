@@ -17,7 +17,12 @@ var connector = new builder.ChatConnector({
     appPassword: "04pDdx0RTD8KNRfDhurx1Jf"
 
 });
-var bot = new builder.UniversalBot(connector);
+var bot = new builder.UniversalBot(connector, function (session) {
+    session.sendTyping();
+    setTimeout(function () {
+        session.send("Bowtt is typing...");
+    }, 3000);
+});
 server.post('https://bowtt2.herokuapp.com/api/messages', connector.listen());
 //Bot on
 bot.on('contactRelationUpdate', function (message) {
@@ -30,9 +35,6 @@ bot.on('contactRelationUpdate', function (message) {
     } else {
         // delete their data
     }
-});
-bot.on('typing', function (message) {
-  // User is typing
 });
 bot.on('deleteUserData', function (message) {
     // User asked to delete their data
