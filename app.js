@@ -18,12 +18,7 @@ var connector = new builder.ChatConnector({
 
 });
 // Create bot and default message handler
-var bot = new builder.UniversalBot(connector, function (session) {
-    session.sendTyping();
-    setTimeout(function () {
-        session.send("Hello there...");
-    }, 2000);
-});
+var bot = new builder.UniversalBot(connector);
 
 server.post('https://bowtt2.herokuapp.com/api/messages', connector.listen());
 //Bot on
