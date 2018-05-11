@@ -58,7 +58,7 @@ function getUser(value){
       var uri = "mongodb+srv://mongodb-stitch-bowtt-kzgjh:deathmetal134!@cluster0-8hr4g.mongodb.net/test?retryWrites=true";
       MongoClient.connect(uri, function(err, client) {
          const collection = client.db("test").collection("devices");
-         // perform actions on the collection object
+         session.send("Database connected..");
          client.close();
       });
 }else{
