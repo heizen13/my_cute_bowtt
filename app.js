@@ -56,15 +56,15 @@ function getUser(value){
    
 var MongoClient = require('mongodb').MongoClient;
 
-var uri = "mongodb+srv://mongodb-stitch-bowtt-kzgjh:deathmetal134!@cluster0-8hr4g.mongodb.net/test?retryWrites=true";
+;
+   
+ if(true){
+    var uri = "mongodb+srv://mongodb-stitch-bowtt-kzgjh:deathmetal134!@cluster0-8hr4g.mongodb.net/test?retryWrites=true";
 MongoClient.connect(uri, function(err, client) {
    const collection = client.db("bowtt_db").collection("bowtt_col");
    session.send("database connected!");
    client.close();
-});
-   
- if(false){
-    //something...
+})
 }else{
    var random = Math.floor((Math.random() * 10) + 1);
       if(random==1){
