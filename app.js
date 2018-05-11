@@ -51,8 +51,6 @@ function getMessage(value){
 function getUser(value){
   return value;
 }
-
-;
    
  if(true){
       var MongoClient = require('mongodb').MongoClient;
