@@ -64,7 +64,7 @@ MongoClient.connect(uri, function(err, client) {
    const collection = client.db("bowtt_db").collection("bowtt_col");
    session.send("database connected!");
    client.close();
-})
+});
 }else{
    var random = Math.floor((Math.random() * 10) + 1);
       if(random==1){
