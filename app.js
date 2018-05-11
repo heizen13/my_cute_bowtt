@@ -52,15 +52,8 @@ function getUser(value){
   return value;
 }
    
- if(true){
-      var MongoClient = require('mongodb').MongoClient;
+ if(false){
 
-      var uri = "mongodb+srv://mongodb-stitch-bowtt-kzgjh:deathmetal134!@cluster0-8hr4g.mongodb.net/test?retryWrites=true";
-      MongoClient.connect(uri, function(err, client) {
-         const collection = client.db("test").collection("devices");
-         session.send("Database connected..");
-         client.close();
-      });
 }else{
    var random = Math.floor((Math.random() * 10) + 1);
       if(random==1){
