@@ -63,7 +63,7 @@ function getUser(value){
       }else if(random==3){
          session.send("Hi " + getUser(userValue) + "! Kulit mo!! Down nga si aqouh~!!! Kulet netoy!");
       }else if(random==4){
-         session.send("Hi " + getUser(userValue) + "! I'm already dead.");
+         session.send("Hi " + getUser(userValue) + "! I'm dead, stupid!");
       }else if(random==5){
          session.send("Hi " + getUser(userValue) + "! I'm dead inside and out.");
       }else if(random==6){
