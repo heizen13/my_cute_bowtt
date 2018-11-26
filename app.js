@@ -53,15 +53,6 @@ function getUser(value){
 }
    
 var msgAry = ["Sorry, down si aqouh weh~!",
-     "Sorry, sira mga function ko!",
-     "Kulit mo!! Down nga si aqouh~!!! Kulet netoy!",
-     "I'm dead, stupid!",
-     "I'm dead inside and out.",
-     "Down muna ako. Baka saniban ako ni Ultron eh.",
-     "Down ako weh.. cornhub ka muna!",
-     "music) Get up, come on get down with the sickness! (rock)",
-     "(music) Hello darkness my old friend... (music)",
-     "-san! Downu zi aku desu~!"
  ];
    
  if(false){
