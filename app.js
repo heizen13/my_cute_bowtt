@@ -52,30 +52,23 @@ function getUser(value){
   return value;
 }
    
+var msgAry = ["Sorry, down si aqouh weh~!",
+     "Sorry, sira mga function ko!",
+     "Kulit mo!! Down nga si aqouh~!!! Kulet netoy!",
+     "I'm dead, stupid!",
+     "I'm dead inside and out.",
+     "Down muna ako. Baka saniban ako ni Ultron eh.",
+     "Down ako weh.. cornhub ka muna!",
+     "music) Get up, come on get down with the sickness! (rock)",
+     "(music) Hello darkness my old friend... (music)",
+     "-san! Downu zi aku desu~!"
+ ];
+   
  if(false){
 
 }else{
    var random = Math.floor((Math.random() * 10) + 1);
-      if(random==1){
-        session.send("Hi " + getUser(userValue) + "! Sorry, down si aqouh weh~!");
-      }else if(random==2){
-         session.send("Hi " + getUser(userValue) + "! Sorry, sira mga function ko!");
-      }else if(random==3){
-         session.send("Hi " + getUser(userValue) + "! Kulit mo!! Down nga si aqouh~!!! Kulet netoy!");
-      }else if(random==4){
-         session.send("Hi " + getUser(userValue) + "! I'm dead, stupid!");
-      }else if(random==5){
-         session.send("Hi " + getUser(userValue) + "! I'm dead inside and out.");
-      }else if(random==6){
-         session.send("Hi " + getUser(userValue) + "! Down muna ako. Baka saniban ako ni Ultron eh.");
-      }else if(random==7){
-         session.send("Cumusta " + getUser(userValue) + "~! Down ako weh.. cornhub ka muna!");
-      }else if(random==8){
-         session.send("Hi " + getUser(userValue) + "! (music) Get up, come on get down with the sickness! (rock)");
-      }else if(random==9){
-         session.send("(music) Hello darkness my old friend... (music)");
-      }else if(random==10){
-         session.send("Ohayo~! " + getUser(userValue) + "-san! Downu zi aku desu~!");
-      }
+   session.send(getUser(userValue) + "! "+msgAry[random]);
+   //session.send("Ohayo~! " + getUser(userValue) + "-san! Downu zi aku desu~!");
   }
 });
