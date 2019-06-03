@@ -493,3 +493,4 @@ function getUser(value){
     session.send("Hi " + getUser(userValue) + "! Try to use the 'help' command");
   }
 });
+ 
